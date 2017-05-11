@@ -1,0 +1,1208 @@
+Archive member included to satisfy reference by file (symbol)
+
+d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_tan.o)
+                              ..\obj\figures.o (tanf)
+d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-w_sqrt.o)
+                              ..\obj\figures.o (sqrt)
+d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-wf_sqrt.o)
+                              ..\obj\figures.o (sqrtf)
+d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-e_sqrt.o)
+                              d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-w_sqrt.o) (__ieee754_sqrt)
+d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-ef_rem_pio2.o)
+                              d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_tan.o) (__ieee754_rem_pio2f)
+d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-ef_sqrt.o)
+                              d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-wf_sqrt.o) (__ieee754_sqrtf)
+d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-kf_rem_pio2.o)
+                              d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-ef_rem_pio2.o) (__kernel_rem_pio2f)
+d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-kf_tan.o)
+                              d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_tan.o) (__kernel_tanf)
+d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-s_lib_ver.o)
+                              d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-w_sqrt.o) (__fdlib_version)
+d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-s_matherr.o)
+                              d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-w_sqrt.o) (matherr)
+d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_fabs.o)
+                              d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-ef_rem_pio2.o) (fabsf)
+d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_floor.o)
+                              d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-kf_rem_pio2.o) (floorf)
+d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_scalbn.o)
+                              d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-kf_rem_pio2.o) (scalbnf)
+d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_copysign.o)
+                              d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_scalbn.o) (copysignf)
+d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubdf3.o)
+                              ..\obj\figures.o (__aeabi_dsub)
+d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_muldivdf3.o)
+                              ..\obj\figures.o (__aeabi_dmul)
+d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpdf2.o)
+                              d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-w_sqrt.o) (__aeabi_dcmplt)
+d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_unorddf2.o)
+                              d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-w_sqrt.o) (__aeabi_dcmpun)
+d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixdfsi.o)
+                              ..\obj\figures.o (__aeabi_d2iz)
+d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_truncdfsf2.o)
+                              d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-wf_sqrt.o) (__aeabi_d2f)
+d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubsf3.o)
+                              ..\obj\figures.o (__aeabi_fsub)
+d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_muldivsf3.o)
+                              ..\obj\figures.o (__aeabi_fmul)
+d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpsf2.o)
+                              ..\obj\figures.o (__aeabi_fcmpeq)
+d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_unordsf2.o)
+                              d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-wf_sqrt.o) (__aeabi_fcmpun)
+d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixsfsi.o)
+                              d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-ef_rem_pio2.o) (__aeabi_f2iz)
+d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixunssfsi.o)
+                              ..\obj\figures.o (__aeabi_f2uiz)
+d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-errno.o)
+                              d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-w_sqrt.o) (__errno)
+d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-impure.o)
+                              d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-errno.o) (_impure_ptr)
+
+Allocating common symbols
+Common symbol       size              file
+
+VGA                 0xc               ..\obj\read_write_pixel.o
+VGA_RAM1            0x12cf0           ..\obj\read_write_pixel.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ..\obj\stm32f4xx_usart.o
+ .data          0x00000000        0x0 ..\obj\stm32f4xx_usart.o
+ .bss           0x00000000        0x0 ..\obj\stm32f4xx_usart.o
+ .text.USART_DeInit
+                0x00000000       0xd4 ..\obj\stm32f4xx_usart.o
+ .text.USART_Init
+                0x00000000      0x174 ..\obj\stm32f4xx_usart.o
+ .text.USART_StructInit
+                0x00000000       0x38 ..\obj\stm32f4xx_usart.o
+ .text.USART_ClockInit
+                0x00000000       0x54 ..\obj\stm32f4xx_usart.o
+ .text.USART_ClockStructInit
+                0x00000000       0x2a ..\obj\stm32f4xx_usart.o
+ .text.USART_Cmd
+                0x00000000       0x3e ..\obj\stm32f4xx_usart.o
+ .text.USART_SetPrescaler
+                0x00000000       0x38 ..\obj\stm32f4xx_usart.o
+ .text.USART_OverSampling8Cmd
+                0x00000000       0x42 ..\obj\stm32f4xx_usart.o
+ .text.USART_OneBitMethodCmd
+                0x00000000       0x3e ..\obj\stm32f4xx_usart.o
+ .text.USART_SendData
+                0x00000000       0x22 ..\obj\stm32f4xx_usart.o
+ .text.USART_ReceiveData
+                0x00000000       0x1e ..\obj\stm32f4xx_usart.o
+ .text.USART_SetAddress
+                0x00000000       0x38 ..\obj\stm32f4xx_usart.o
+ .text.USART_ReceiverWakeUpCmd
+                0x00000000       0x3e ..\obj\stm32f4xx_usart.o
+ .text.USART_WakeUpConfig
+                0x00000000       0x36 ..\obj\stm32f4xx_usart.o
+ .text.USART_LINBreakDetectLengthConfig
+                0x00000000       0x36 ..\obj\stm32f4xx_usart.o
+ .text.USART_LINCmd
+                0x00000000       0x3e ..\obj\stm32f4xx_usart.o
+ .text.USART_SendBreak
+                0x00000000       0x22 ..\obj\stm32f4xx_usart.o
+ .text.USART_HalfDuplexCmd
+                0x00000000       0x3e ..\obj\stm32f4xx_usart.o
+ .text.USART_SetGuardTime
+                0x00000000       0x3a ..\obj\stm32f4xx_usart.o
+ .text.USART_SmartCardCmd
+                0x00000000       0x3e ..\obj\stm32f4xx_usart.o
+ .text.USART_SmartCardNACKCmd
+                0x00000000       0x3e ..\obj\stm32f4xx_usart.o
+ .text.USART_IrDAConfig
+                0x00000000       0x36 ..\obj\stm32f4xx_usart.o
+ .text.USART_IrDACmd
+                0x00000000       0x3e ..\obj\stm32f4xx_usart.o
+ .text.USART_DMACmd
+                0x00000000       0x46 ..\obj\stm32f4xx_usart.o
+ .text.USART_ITConfig
+                0x00000000       0x8e ..\obj\stm32f4xx_usart.o
+ .text.USART_GetFlagStatus
+                0x00000000       0x36 ..\obj\stm32f4xx_usart.o
+ .text.USART_ClearFlag
+                0x00000000       0x20 ..\obj\stm32f4xx_usart.o
+ .text.USART_GetITStatus
+                0x00000000       0xb4 ..\obj\stm32f4xx_usart.o
+ .text.USART_ClearITPendingBit
+                0x00000000       0x38 ..\obj\stm32f4xx_usart.o
+ .debug_info    0x00000000      0x9d1 ..\obj\stm32f4xx_usart.o
+ .debug_abbrev  0x00000000      0x180 ..\obj\stm32f4xx_usart.o
+ .debug_aranges
+                0x00000000      0x100 ..\obj\stm32f4xx_usart.o
+ .debug_ranges  0x00000000       0xf0 ..\obj\stm32f4xx_usart.o
+ .debug_line    0x00000000      0x4f1 ..\obj\stm32f4xx_usart.o
+ .debug_str     0x00000000      0x6af ..\obj\stm32f4xx_usart.o
+ .comment       0x00000000       0x80 ..\obj\stm32f4xx_usart.o
+ .debug_frame   0x00000000      0x490 ..\obj\stm32f4xx_usart.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f4xx_usart.o
+ .text          0x00000000        0x0 ..\obj\startup_stm32f4xx.o
+ .data          0x00000000        0x0 ..\obj\startup_stm32f4xx.o
+ .bss           0x00000000        0x0 ..\obj\startup_stm32f4xx.o
+ .text          0x00000000        0x0 ..\obj\read_write_pixel.o
+ .data          0x00000000        0x0 ..\obj\read_write_pixel.o
+ .bss           0x00000000        0x0 ..\obj\read_write_pixel.o
+ .text          0x00000000        0x0 ..\obj\main.o
+ .data          0x00000000        0x0 ..\obj\main.o
+ .bss           0x00000000        0x0 ..\obj\main.o
+ .text          0x00000000        0x0 ..\obj\stm32f4xx_rcc.o
+ .data          0x00000000       0x10 ..\obj\stm32f4xx_rcc.o
+ .bss           0x00000000        0x0 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_DeInit
+                0x00000000       0x50 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_HSEConfig
+                0x00000000       0x24 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_WaitForHSEStartUp
+                0x00000000       0x50 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_AdjustHSICalibrationValue
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_HSICmd
+                0x00000000       0x20 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_LSEConfig
+                0x00000000       0x40 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_LSICmd
+                0x00000000       0x20 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_PLLConfig
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_PLLCmd
+                0x00000000       0x20 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_PLLI2SConfig
+                0x00000000       0x28 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_PLLI2SCmd
+                0x00000000       0x20 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_ClockSecuritySystemCmd
+                0x00000000       0x20 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_MCO1Config
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_MCO2Config
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_SYSCLKConfig
+                0x00000000       0x38 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_GetSYSCLKSource
+                0x00000000       0x1c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_HCLKConfig
+                0x00000000       0x38 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_PCLK1Config
+                0x00000000       0x38 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_PCLK2Config
+                0x00000000       0x38 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_GetClocksFreq
+                0x00000000      0x150 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_RTCCLKConfig
+                0x00000000       0x5c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_RTCCLKCmd
+                0x00000000       0x20 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_BackupResetCmd
+                0x00000000       0x20 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_I2SCLKConfig
+                0x00000000       0x1c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_AHB2PeriphClockCmd
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_AHB3PeriphClockCmd
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_AHB1PeriphResetCmd
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_AHB2PeriphResetCmd
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_AHB3PeriphResetCmd
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_APB1PeriphResetCmd
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_APB2PeriphResetCmd
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_AHB1PeriphClockLPModeCmd
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_AHB2PeriphClockLPModeCmd
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_AHB3PeriphClockLPModeCmd
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_APB1PeriphClockLPModeCmd
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_APB2PeriphClockLPModeCmd
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_ITConfig
+                0x00000000       0x4c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_GetFlagStatus
+                0x00000000       0x74 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_ClearFlag
+                0x00000000       0x1c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_GetITStatus
+                0x00000000       0x34 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_ClearITPendingBit
+                0x00000000       0x20 ..\obj\stm32f4xx_rcc.o
+ .text          0x00000000        0x0 ..\obj\input.o
+ .data          0x00000000        0x0 ..\obj\input.o
+ .bss           0x00000000        0x0 ..\obj\input.o
+ .debug_line    0x00000000        0x0 ..\obj\input.o
+ .debug_str     0x00000000       0xbc ..\obj\input.o
+ .comment       0x00000000       0x80 ..\obj\input.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\input.o
+ .text          0x00000000        0x0 ..\obj\stm32f4xx_gpio.o
+ .data          0x00000000        0x0 ..\obj\stm32f4xx_gpio.o
+ .bss           0x00000000        0x0 ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_DeInit
+                0x00000000      0x120 ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_StructInit
+                0x00000000       0x32 ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_PinLockConfig
+                0x00000000       0x42 ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_ReadInputDataBit
+                0x00000000       0x32 ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_ReadInputData
+                0x00000000       0x18 ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_ReadOutputDataBit
+                0x00000000       0x32 ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_ReadOutputData
+                0x00000000       0x18 ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_SetBits
+                0x00000000       0x1c ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_ResetBits
+                0x00000000       0x1c ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_WriteBit
+                0x00000000       0x2e ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_Write
+                0x00000000       0x1c ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_ToggleBits
+                0x00000000       0x22 ..\obj\stm32f4xx_gpio.o
+ .text          0x00000000        0x0 ..\obj\system_stm32f4xx.o
+ .data          0x00000000       0x14 ..\obj\system_stm32f4xx.o
+ .bss           0x00000000        0x0 ..\obj\system_stm32f4xx.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0xf4 ..\obj\system_stm32f4xx.o
+ .text          0x00000000        0x0 ..\obj\stm32f4xx_dma.o
+ .data          0x00000000        0x0 ..\obj\stm32f4xx_dma.o
+ .bss           0x00000000        0x0 ..\obj\stm32f4xx_dma.o
+ .text.DMA_StructInit
+                0x00000000       0x6c ..\obj\stm32f4xx_dma.o
+ .text.DMA_PeriphIncOffsetSizeConfig
+                0x00000000       0x34 ..\obj\stm32f4xx_dma.o
+ .text.DMA_FlowControllerConfig
+                0x00000000       0x34 ..\obj\stm32f4xx_dma.o
+ .text.DMA_SetCurrDataCounter
+                0x00000000       0x1c ..\obj\stm32f4xx_dma.o
+ .text.DMA_GetCurrDataCounter
+                0x00000000       0x18 ..\obj\stm32f4xx_dma.o
+ .text.DMA_DoubleBufferModeConfig
+                0x00000000       0x3c ..\obj\stm32f4xx_dma.o
+ .text.DMA_DoubleBufferModeCmd
+                0x00000000       0x36 ..\obj\stm32f4xx_dma.o
+ .text.DMA_MemoryTargetConfig
+                0x00000000       0x2a ..\obj\stm32f4xx_dma.o
+ .text.DMA_GetCurrentMemoryTarget
+                0x00000000       0x2e ..\obj\stm32f4xx_dma.o
+ .text.DMA_GetCmdStatus
+                0x00000000       0x2e ..\obj\stm32f4xx_dma.o
+ .text.DMA_GetFIFOStatus
+                0x00000000       0x22 ..\obj\stm32f4xx_dma.o
+ .text.DMA_GetFlagStatus
+                0x00000000       0x74 ..\obj\stm32f4xx_dma.o
+ .text.DMA_ClearFlag
+                0x00000000       0x5c ..\obj\stm32f4xx_dma.o
+ .text          0x00000000        0x0 ..\obj\figures.o
+ .data          0x00000000        0x0 ..\obj\figures.o
+ .bss           0x00000000        0x0 ..\obj\figures.o
+ .text.line     0x00000000      0x116 ..\obj\figures.o
+ .text.square   0x00000000       0xea ..\obj\figures.o
+ .text.elipse   0x00000000      0x358 ..\obj\figures.o
+ .text.triangle
+                0x00000000      0x4d6 ..\obj\figures.o
+ .debug_info    0x00000000      0x4e2 ..\obj\figures.o
+ .debug_abbrev  0x00000000      0x18f ..\obj\figures.o
+ .debug_aranges
+                0x00000000       0x38 ..\obj\figures.o
+ .debug_ranges  0x00000000       0x28 ..\obj\figures.o
+ .debug_line    0x00000000      0x4f6 ..\obj\figures.o
+ .debug_str     0x00000000      0x36c ..\obj\figures.o
+ .comment       0x00000000       0x80 ..\obj\figures.o
+ .debug_frame   0x00000000       0xb8 ..\obj\figures.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\figures.o
+ .text          0x00000000        0x0 ..\obj\bitmap.o
+ .data          0x00000000        0x0 ..\obj\bitmap.o
+ .bss           0x00000000        0x0 ..\obj\bitmap.o
+ .text.smiley   0x00000000       0x1c ..\obj\bitmap.o
+ .text.pijl     0x00000000       0x58 ..\obj\bitmap.o
+ .debug_info    0x00000000      0x218 ..\obj\bitmap.o
+ .debug_abbrev  0x00000000      0x11d ..\obj\bitmap.o
+ .debug_aranges
+                0x00000000       0x28 ..\obj\bitmap.o
+ .debug_ranges  0x00000000       0x18 ..\obj\bitmap.o
+ .debug_line    0x00000000      0x20c ..\obj\bitmap.o
+ .debug_str     0x00000000      0x266 ..\obj\bitmap.o
+ .comment       0x00000000       0x80 ..\obj\bitmap.o
+ .debug_frame   0x00000000       0x70 ..\obj\bitmap.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\bitmap.o
+ .text          0x00000000        0x0 ..\obj\stm32_ub_vga_screen.o
+ .data          0x00000000        0x0 ..\obj\stm32_ub_vga_screen.o
+ .bss           0x00000000        0x0 ..\obj\stm32_ub_vga_screen.o
+ .text          0x00000000        0x0 ..\obj\misc.o
+ .data          0x00000000        0x0 ..\obj\misc.o
+ .bss           0x00000000        0x0 ..\obj\misc.o
+ .text.NVIC_PriorityGroupConfig
+                0x00000000       0x24 ..\obj\misc.o
+ .text.NVIC_SetVectorTable
+                0x00000000       0x2c ..\obj\misc.o
+ .text.NVIC_SystemLPConfig
+                0x00000000       0x40 ..\obj\misc.o
+ .text.SysTick_CLKSourceConfig
+                0x00000000       0x38 ..\obj\misc.o
+ .text          0x00000000        0x0 ..\obj\tekts.o
+ .data          0x00000000        0x0 ..\obj\tekts.o
+ .bss           0x00000000        0x0 ..\obj\tekts.o
+ .debug_line    0x00000000        0x0 ..\obj\tekts.o
+ .debug_str     0x00000000       0xbc ..\obj\tekts.o
+ .comment       0x00000000       0x80 ..\obj\tekts.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\tekts.o
+ .text          0x00000000        0x0 ..\obj\stm32f4xx_tim.o
+ .data          0x00000000        0x0 ..\obj\stm32f4xx_tim.o
+ .bss           0x00000000        0x0 ..\obj\stm32f4xx_tim.o
+ .text.TIM_DeInit
+                0x00000000      0x1c0 ..\obj\stm32f4xx_tim.o
+ .text.TIM_TimeBaseStructInit
+                0x00000000       0x32 ..\obj\stm32f4xx_tim.o
+ .text.TIM_PrescalerConfig
+                0x00000000       0x26 ..\obj\stm32f4xx_tim.o
+ .text.TIM_CounterModeConfig
+                0x00000000       0x36 ..\obj\stm32f4xx_tim.o
+ .text.TIM_SetCounter
+                0x00000000       0x1a ..\obj\stm32f4xx_tim.o
+ .text.TIM_SetAutoreload
+                0x00000000       0x1a ..\obj\stm32f4xx_tim.o
+ .text.TIM_GetCounter
+                0x00000000       0x16 ..\obj\stm32f4xx_tim.o
+ .text.TIM_GetPrescaler
+                0x00000000       0x18 ..\obj\stm32f4xx_tim.o
+ .text.TIM_UpdateDisableConfig
+                0x00000000       0x3e ..\obj\stm32f4xx_tim.o
+ .text.TIM_UpdateRequestConfig
+                0x00000000       0x3e ..\obj\stm32f4xx_tim.o
+ .text.TIM_SelectOnePulseMode
+                0x00000000       0x36 ..\obj\stm32f4xx_tim.o
+ .text.TIM_SetClockDivision
+                0x00000000       0x36 ..\obj\stm32f4xx_tim.o
+ .text.TIM_OC1Init
+                0x00000000       0xf4 ..\obj\stm32f4xx_tim.o
+ .text.TIM_OC2Init
+                0x00000000      0x110 ..\obj\stm32f4xx_tim.o
+ .text.TIM_OCStructInit
+                0x00000000       0x42 ..\obj\stm32f4xx_tim.o
+ .text.TIM_SelectOCxM
+                0x00000000       0xb0 ..\obj\stm32f4xx_tim.o
+ .text.TIM_SetCompare1
+                0x00000000       0x1a ..\obj\stm32f4xx_tim.o
+ .text.TIM_SetCompare2
+                0x00000000       0x1a ..\obj\stm32f4xx_tim.o
+ .text.TIM_SetCompare3
+                0x00000000       0x1a ..\obj\stm32f4xx_tim.o
+ .text.TIM_SetCompare4
+                0x00000000       0x1a ..\obj\stm32f4xx_tim.o
+ .text.TIM_ForcedOC1Config
+                0x00000000       0x36 ..\obj\stm32f4xx_tim.o
+ .text.TIM_ForcedOC2Config
+                0x00000000       0x3a ..\obj\stm32f4xx_tim.o
+ .text.TIM_ForcedOC3Config
+                0x00000000       0x36 ..\obj\stm32f4xx_tim.o
+ .text.TIM_ForcedOC4Config
+                0x00000000       0x3a ..\obj\stm32f4xx_tim.o
+ .text.TIM_OC1PreloadConfig
+                0x00000000       0x36 ..\obj\stm32f4xx_tim.o
+ .text.TIM_OC2PreloadConfig
+                0x00000000       0x3a ..\obj\stm32f4xx_tim.o
+ .text.TIM_OC1FastConfig
+                0x00000000       0x36 ..\obj\stm32f4xx_tim.o
+ .text.TIM_OC2FastConfig
+                0x00000000       0x3a ..\obj\stm32f4xx_tim.o
+ .text.TIM_OC3FastConfig
+                0x00000000       0x36 ..\obj\stm32f4xx_tim.o
+ .text.TIM_OC4FastConfig
+                0x00000000       0x3a ..\obj\stm32f4xx_tim.o
+ .text.TIM_ClearOC1Ref
+                0x00000000       0x36 ..\obj\stm32f4xx_tim.o
+ .text.TIM_ClearOC2Ref
+                0x00000000       0x3a ..\obj\stm32f4xx_tim.o
+ .text.TIM_ClearOC3Ref
+                0x00000000       0x36 ..\obj\stm32f4xx_tim.o
+ .text.TIM_ClearOC4Ref
+                0x00000000       0x3a ..\obj\stm32f4xx_tim.o
+ .text.TIM_OC1PolarityConfig
+                0x00000000       0x36 ..\obj\stm32f4xx_tim.o
+ .text.TIM_OC1NPolarityConfig
+                0x00000000       0x36 ..\obj\stm32f4xx_tim.o
+ .text.TIM_OC2PolarityConfig
+                0x00000000       0x3a ..\obj\stm32f4xx_tim.o
+ .text.TIM_OC2NPolarityConfig
+                0x00000000       0x3a ..\obj\stm32f4xx_tim.o
+ .text.TIM_OC3PolarityConfig
+                0x00000000       0x3a ..\obj\stm32f4xx_tim.o
+ .text.TIM_OC3NPolarityConfig
+                0x00000000       0x3a ..\obj\stm32f4xx_tim.o
+ .text.TIM_OC4PolarityConfig
+                0x00000000       0x3a ..\obj\stm32f4xx_tim.o
+ .text.TIM_CCxCmd
+                0x00000000       0x54 ..\obj\stm32f4xx_tim.o
+ .text.TIM_CCxNCmd
+                0x00000000       0x54 ..\obj\stm32f4xx_tim.o
+ .text.TIM_ICInit
+                0x00000000       0xa8 ..\obj\stm32f4xx_tim.o
+ .text.TIM_ICStructInit
+                0x00000000       0x30 ..\obj\stm32f4xx_tim.o
+ .text.TIM_PWMIConfig
+                0x00000000       0xb8 ..\obj\stm32f4xx_tim.o
+ .text.TIM_GetCapture1
+                0x00000000       0x16 ..\obj\stm32f4xx_tim.o
+ .text.TIM_GetCapture2
+                0x00000000       0x16 ..\obj\stm32f4xx_tim.o
+ .text.TIM_GetCapture3
+                0x00000000       0x16 ..\obj\stm32f4xx_tim.o
+ .text.TIM_GetCapture4
+                0x00000000       0x16 ..\obj\stm32f4xx_tim.o
+ .text.TIM_SetIC1Prescaler
+                0x00000000       0x36 ..\obj\stm32f4xx_tim.o
+ .text.TIM_SetIC2Prescaler
+                0x00000000       0x3a ..\obj\stm32f4xx_tim.o
+ .text.TIM_SetIC3Prescaler
+                0x00000000       0x36 ..\obj\stm32f4xx_tim.o
+ .text.TIM_SetIC4Prescaler
+                0x00000000       0x3a ..\obj\stm32f4xx_tim.o
+ .text.TIM_BDTRConfig
+                0x00000000       0x4e ..\obj\stm32f4xx_tim.o
+ .text.TIM_BDTRStructInit
+                0x00000000       0x3c ..\obj\stm32f4xx_tim.o
+ .text.TIM_CtrlPWMOutputs
+                0x00000000       0x4a ..\obj\stm32f4xx_tim.o
+ .text.TIM_SelectCOM
+                0x00000000       0x3e ..\obj\stm32f4xx_tim.o
+ .text.TIM_CCPreloadControl
+                0x00000000       0x3e ..\obj\stm32f4xx_tim.o
+ .text.TIM_GenerateEvent
+                0x00000000       0x1c ..\obj\stm32f4xx_tim.o
+ .text.TIM_GetFlagStatus
+                0x00000000       0x36 ..\obj\stm32f4xx_tim.o
+ .text.TIM_ClearFlag
+                0x00000000       0x20 ..\obj\stm32f4xx_tim.o
+ .text.TIM_GetITStatus
+                0x00000000       0x52 ..\obj\stm32f4xx_tim.o
+ .text.TIM_DMAConfig
+                0x00000000       0x28 ..\obj\stm32f4xx_tim.o
+ .text.TIM_SelectCCDMA
+                0x00000000       0x3e ..\obj\stm32f4xx_tim.o
+ .text.TIM_InternalClockConfig
+                0x00000000       0x22 ..\obj\stm32f4xx_tim.o
+ .text.TIM_ITRxExternalClockConfig
+                0x00000000       0x2e ..\obj\stm32f4xx_tim.o
+ .text.TIM_TIxExternalClockConfig
+                0x00000000       0x5c ..\obj\stm32f4xx_tim.o
+ .text.TIM_ETRClockMode1Config
+                0x00000000       0x5e ..\obj\stm32f4xx_tim.o
+ .text.TIM_ETRClockMode2Config
+                0x00000000       0x3e ..\obj\stm32f4xx_tim.o
+ .text.TIM_SelectInputTrigger
+                0x00000000       0x36 ..\obj\stm32f4xx_tim.o
+ .text.TIM_SelectOutputTrigger
+                0x00000000       0x36 ..\obj\stm32f4xx_tim.o
+ .text.TIM_SelectSlaveMode
+                0x00000000       0x36 ..\obj\stm32f4xx_tim.o
+ .text.TIM_SelectMasterSlaveMode
+                0x00000000       0x36 ..\obj\stm32f4xx_tim.o
+ .text.TIM_ETRConfig
+                0x00000000       0x52 ..\obj\stm32f4xx_tim.o
+ .text.TIM_EncoderInterfaceConfig
+                0x00000000       0x96 ..\obj\stm32f4xx_tim.o
+ .text.TIM_SelectHallSensor
+                0x00000000       0x3e ..\obj\stm32f4xx_tim.o
+ .text.TIM_RemapConfig
+                0x00000000       0x1e ..\obj\stm32f4xx_tim.o
+ .text.TI1_Config
+                0x00000000       0x84 ..\obj\stm32f4xx_tim.o
+ .text.TI2_Config
+                0x00000000       0x98 ..\obj\stm32f4xx_tim.o
+ .text.TI3_Config
+                0x00000000       0x8e ..\obj\stm32f4xx_tim.o
+ .text.TI4_Config
+                0x00000000       0x9c ..\obj\stm32f4xx_tim.o
+ .text          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_tan.o)
+ .data          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_tan.o)
+ .bss           0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_tan.o)
+ .text.tanf     0x00000000       0x50 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_tan.o)
+ .debug_frame   0x00000000       0x38 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_tan.o)
+ .ARM.attributes
+                0x00000000       0x2e d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_tan.o)
+ .text          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-w_sqrt.o)
+ .data          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-w_sqrt.o)
+ .bss           0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-w_sqrt.o)
+ .text.sqrt     0x00000000       0xbc d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-w_sqrt.o)
+ .rodata.sqrt.str1.4
+                0x00000000        0x5 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-w_sqrt.o)
+ .debug_frame   0x00000000       0x44 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-w_sqrt.o)
+ .ARM.attributes
+                0x00000000       0x2e d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-w_sqrt.o)
+ .text          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-wf_sqrt.o)
+ .data          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-wf_sqrt.o)
+ .bss           0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-wf_sqrt.o)
+ .text.sqrtf    0x00000000       0xa0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-wf_sqrt.o)
+ .rodata.sqrtf.str1.4
+                0x00000000        0x6 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-wf_sqrt.o)
+ .debug_frame   0x00000000       0x3c d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-wf_sqrt.o)
+ .ARM.attributes
+                0x00000000       0x2e d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-wf_sqrt.o)
+ .text          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-e_sqrt.o)
+ .data          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-e_sqrt.o)
+ .bss           0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-e_sqrt.o)
+ .text.__ieee754_sqrt
+                0x00000000      0x178 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-e_sqrt.o)
+ .debug_frame   0x00000000       0x34 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-e_sqrt.o)
+ .ARM.attributes
+                0x00000000       0x2e d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-e_sqrt.o)
+ .text          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-ef_rem_pio2.o)
+ .data          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-ef_rem_pio2.o)
+ .bss           0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-ef_rem_pio2.o)
+ .text.__ieee754_rem_pio2f
+                0x00000000      0x2dc d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-ef_rem_pio2.o)
+ .rodata.npio2_hw
+                0x00000000       0x80 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-ef_rem_pio2.o)
+ .rodata.two_over_pi
+                0x00000000      0x318 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-ef_rem_pio2.o)
+ .debug_frame   0x00000000       0x48 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-ef_rem_pio2.o)
+ .ARM.attributes
+                0x00000000       0x2e d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-ef_rem_pio2.o)
+ .text          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-ef_sqrt.o)
+ .data          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-ef_sqrt.o)
+ .bss           0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-ef_sqrt.o)
+ .text.__ieee754_sqrtf
+                0x00000000       0xa8 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-ef_sqrt.o)
+ .debug_frame   0x00000000       0x30 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-ef_sqrt.o)
+ .ARM.attributes
+                0x00000000       0x2e d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-ef_sqrt.o)
+ .text          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-kf_rem_pio2.o)
+ .data          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-kf_rem_pio2.o)
+ .bss           0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-kf_rem_pio2.o)
+ .text.__kernel_rem_pio2f
+                0x00000000      0x70c d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-kf_rem_pio2.o)
+ .rodata.PIo2   0x00000000       0x2c d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-kf_rem_pio2.o)
+ .rodata.init_jk
+                0x00000000        0xc d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-kf_rem_pio2.o)
+ .debug_frame   0x00000000       0x50 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-kf_rem_pio2.o)
+ .ARM.attributes
+                0x00000000       0x2e d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-kf_rem_pio2.o)
+ .text          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-kf_tan.o)
+ .data          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-kf_tan.o)
+ .bss           0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-kf_tan.o)
+ .text.__kernel_tanf
+                0x00000000      0x278 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-kf_tan.o)
+ .debug_frame   0x00000000       0x4c d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-kf_tan.o)
+ .ARM.attributes
+                0x00000000       0x2e d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-kf_tan.o)
+ .text          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-s_lib_ver.o)
+ .data          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-s_lib_ver.o)
+ .bss           0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-s_lib_ver.o)
+ .data.__fdlib_version
+                0x00000000        0x1 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-s_lib_ver.o)
+ .ARM.attributes
+                0x00000000       0x2e d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-s_lib_ver.o)
+ .text          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-s_matherr.o)
+ .data          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-s_matherr.o)
+ .bss           0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-s_matherr.o)
+ .text.matherr  0x00000000        0x4 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-s_matherr.o)
+ .debug_frame   0x00000000       0x20 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-s_matherr.o)
+ .ARM.attributes
+                0x00000000       0x2e d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-s_matherr.o)
+ .text          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_fabs.o)
+ .data          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_fabs.o)
+ .bss           0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_fabs.o)
+ .text.fabsf    0x00000000        0x8 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_fabs.o)
+ .debug_frame   0x00000000       0x20 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_fabs.o)
+ .ARM.attributes
+                0x00000000       0x2e d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_fabs.o)
+ .text          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_floor.o)
+ .data          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_floor.o)
+ .bss           0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_floor.o)
+ .text.floorf   0x00000000       0x8c d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_floor.o)
+ .debug_frame   0x00000000       0x30 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_floor.o)
+ .ARM.attributes
+                0x00000000       0x2e d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_floor.o)
+ .text          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_scalbn.o)
+ .data          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_scalbn.o)
+ .bss           0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_scalbn.o)
+ .text.scalbnf  0x00000000       0xb0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_scalbn.o)
+ .debug_frame   0x00000000       0x2c d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_scalbn.o)
+ .ARM.attributes
+                0x00000000       0x2e d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_scalbn.o)
+ .text          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_copysign.o)
+ .data          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_copysign.o)
+ .bss           0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_copysign.o)
+ .text.copysignf
+                0x00000000        0xc d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_copysign.o)
+ .debug_frame   0x00000000       0x20 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_copysign.o)
+ .ARM.attributes
+                0x00000000       0x2e d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a(lib_a-sf_copysign.o)
+ .text          0x00000000      0x370 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x00000000       0xac d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x00000000       0x1e d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubdf3.o)
+ .text          0x00000000      0x424 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_muldivdf3.o)
+ .data          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_muldivdf3.o)
+ .bss           0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x00000000       0x50 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x00000000       0x1e d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_muldivdf3.o)
+ .text          0x00000000      0x110 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpdf2.o)
+ .data          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpdf2.o)
+ .bss           0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpdf2.o)
+ .debug_frame   0x00000000       0xc4 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x00000000       0x1e d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpdf2.o)
+ .text          0x00000000       0x2c d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_unorddf2.o)
+ .data          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_unorddf2.o)
+ .bss           0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_unorddf2.o)
+ .debug_frame   0x00000000       0x20 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_unorddf2.o)
+ .ARM.attributes
+                0x00000000       0x1e d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_unorddf2.o)
+ .text          0x00000000       0x50 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixdfsi.o)
+ .data          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixdfsi.o)
+ .bss           0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixdfsi.o)
+ .debug_frame   0x00000000       0x24 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixdfsi.o)
+ .ARM.attributes
+                0x00000000       0x1e d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixdfsi.o)
+ .text          0x00000000       0xa0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_truncdfsf2.o)
+ .data          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_truncdfsf2.o)
+ .bss           0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_truncdfsf2.o)
+ .debug_frame   0x00000000       0x24 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_truncdfsf2.o)
+ .ARM.attributes
+                0x00000000       0x1e d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_truncdfsf2.o)
+ .text          0x00000000      0x21c d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubsf3.o)
+ .data          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubsf3.o)
+ .bss           0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubsf3.o)
+ .debug_frame   0x00000000       0x4c d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubsf3.o)
+ .ARM.attributes
+                0x00000000       0x1e d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubsf3.o)
+ .text          0x00000000      0x2a0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_muldivsf3.o)
+ .data          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_muldivsf3.o)
+ .bss           0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_muldivsf3.o)
+ .debug_frame   0x00000000       0x38 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_muldivsf3.o)
+ .ARM.attributes
+                0x00000000       0x1e d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_muldivsf3.o)
+ .text          0x00000000       0xec d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpsf2.o)
+ .data          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpsf2.o)
+ .bss           0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpsf2.o)
+ .debug_frame   0x00000000       0xc8 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpsf2.o)
+ .ARM.attributes
+                0x00000000       0x1e d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpsf2.o)
+ .text          0x00000000       0x2c d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_unordsf2.o)
+ .data          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_unordsf2.o)
+ .bss           0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_unordsf2.o)
+ .debug_frame   0x00000000       0x24 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_unordsf2.o)
+ .ARM.attributes
+                0x00000000       0x1e d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_unordsf2.o)
+ .text          0x00000000       0x4c d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixsfsi.o)
+ .data          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixsfsi.o)
+ .bss           0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixsfsi.o)
+ .debug_frame   0x00000000       0x24 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixsfsi.o)
+ .ARM.attributes
+                0x00000000       0x1e d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixsfsi.o)
+ .text          0x00000000       0x40 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixunssfsi.o)
+ .data          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixunssfsi.o)
+ .bss           0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixunssfsi.o)
+ .debug_frame   0x00000000       0x24 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixunssfsi.o)
+ .ARM.attributes
+                0x00000000       0x1e d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixunssfsi.o)
+ .text          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-errno.o)
+ .data          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-errno.o)
+ .bss           0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-errno.o)
+ .text.__errno  0x00000000        0xc d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-errno.o)
+ .debug_frame   0x00000000       0x20 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-errno.o)
+ .ARM.attributes
+                0x00000000       0x2e d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-errno.o)
+ .text          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-impure.o)
+ .data          0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-impure.o)
+ .data.impure_data
+                0x00000000      0x428 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x00000000        0x4 d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000000       0x2e d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-impure.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x08000000         0x00100000         xr
+ram              0x20000000         0x00020000         xrw
+ram1             0x10000000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x20020000                _eram = 0x20020000
+
+.text           0x08000000     0x1368
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x188 ..\obj\startup_stm32f4xx.o
+                0x08000000                g_pfnVectors
+ *(.text*)
+ .text.Default_Reset_Handler
+                0x08000188       0x5c ..\obj\startup_stm32f4xx.o
+                0x08000188                Default_Reset_Handler
+                0x08000188                Reset_Handler
+ .text.Default_Handler
+                0x080001e4        0x6 ..\obj\startup_stm32f4xx.o
+                0x080001e4                RTC_Alarm_IRQHandler
+                0x080001e4                HASH_RNG_IRQHandler
+                0x080001e4                EXTI2_IRQHandler
+                0x080001e4                TIM8_CC_IRQHandler
+                0x080001e4                DebugMon_Handler
+                0x080001e4                TIM1_CC_IRQHandler
+                0x080001e4                HardFault_Handler
+                0x080001e4                DMA1_Stream5_IRQHandler
+                0x080001e4                SysTick_Handler
+                0x080001e4                PVD_IRQHandler
+                0x080001e4                SDIO_IRQHandler
+                0x080001e4                TAMP_STAMP_IRQHandler
+                0x080001e4                PendSV_Handler
+                0x080001e4                NMI_Handler
+                0x080001e4                CAN2_RX1_IRQHandler
+                0x080001e4                EXTI3_IRQHandler
+                0x080001e4                TIM8_TRG_COM_TIM14_IRQHandler
+                0x080001e4                TIM1_UP_TIM10_IRQHandler
+                0x080001e4                TIM8_UP_TIM13_IRQHandler
+                0x080001e4                I2C3_ER_IRQHandler
+                0x080001e4                EXTI0_IRQHandler
+                0x080001e4                I2C2_EV_IRQHandler
+                0x080001e4                DMA1_Stream2_IRQHandler
+                0x080001e4                CAN1_RX0_IRQHandler
+                0x080001e4                FPU_IRQHandler
+                0x080001e4                OTG_HS_WKUP_IRQHandler
+                0x080001e4                UsageFault_Handler
+                0x080001e4                CAN2_SCE_IRQHandler
+                0x080001e4                DMA2_Stream2_IRQHandler
+                0x080001e4                SPI1_IRQHandler
+                0x080001e4                TIM6_DAC_IRQHandler
+                0x080001e4                TIM1_BRK_TIM9_IRQHandler
+                0x080001e4                DCMI_IRQHandler
+                0x080001e4                CAN2_RX0_IRQHandler
+                0x080001e4                DMA2_Stream3_IRQHandler
+                0x080001e4                USART6_IRQHandler
+                0x080001e4                USART3_IRQHandler
+                0x080001e4                CRYP_IRQHandler
+                0x080001e4                CAN1_RX1_IRQHandler
+                0x080001e4                UART5_IRQHandler
+                0x080001e4                DMA2_Stream0_IRQHandler
+                0x080001e4                TIM4_IRQHandler
+                0x080001e4                I2C1_EV_IRQHandler
+                0x080001e4                DMA1_Stream6_IRQHandler
+                0x080001e4                DMA1_Stream1_IRQHandler
+                0x080001e4                UART4_IRQHandler
+                0x080001e4                TIM3_IRQHandler
+                0x080001e4                RCC_IRQHandler
+                0x080001e4                TIM8_BRK_TIM12_IRQHandler
+                0x080001e4                EXTI15_10_IRQHandler
+                0x080001e4                ADC_IRQHandler
+                0x080001e4                DMA1_Stream7_IRQHandler
+                0x080001e4                TIM7_IRQHandler
+                0x080001e4                CAN2_TX_IRQHandler
+                0x080001e4                TIM5_IRQHandler
+                0x080001e4                DMA2_Stream7_IRQHandler
+                0x080001e4                I2C3_EV_IRQHandler
+                0x080001e4                EXTI9_5_IRQHandler
+                0x080001e4                RTC_WKUP_IRQHandler
+                0x080001e4                ETH_WKUP_IRQHandler
+                0x080001e4                SPI2_IRQHandler
+                0x080001e4                OTG_HS_EP1_IN_IRQHandler
+                0x080001e4                MemManage_Handler
+                0x080001e4                DMA1_Stream0_IRQHandler
+                0x080001e4                CAN1_TX_IRQHandler
+                0x080001e4                SVC_Handler
+                0x080001e4                EXTI4_IRQHandler
+                0x080001e4                FSMC_IRQHandler
+                0x080001e4                ETH_IRQHandler
+                0x080001e4                OTG_HS_EP1_OUT_IRQHandler
+                0x080001e4                WWDG_IRQHandler
+                0x080001e4                OTG_FS_WKUP_IRQHandler
+                0x080001e4                TIM1_TRG_COM_TIM11_IRQHandler
+                0x080001e4                OTG_HS_IRQHandler
+                0x080001e4                EXTI1_IRQHandler
+                0x080001e4                USART2_IRQHandler
+                0x080001e4                I2C2_ER_IRQHandler
+                0x080001e4                DMA2_Stream1_IRQHandler
+                0x080001e4                CAN1_SCE_IRQHandler
+                0x080001e4                FLASH_IRQHandler
+                0x080001e4                DMA2_Stream4_IRQHandler
+                0x080001e4                BusFault_Handler
+                0x080001e4                USART1_IRQHandler
+                0x080001e4                OTG_FS_IRQHandler
+                0x080001e4                SPI3_IRQHandler
+                0x080001e4                DMA1_Stream4_IRQHandler
+                0x080001e4                I2C1_ER_IRQHandler
+                0x080001e4                DMA2_Stream6_IRQHandler
+                0x080001e4                DMA1_Stream3_IRQHandler
+ .text.read_and_write
+                0x080001ea       0x32 ..\obj\read_write_pixel.o
+                0x080001ea                read_and_write
+ .text.main     0x0800021c       0x20 ..\obj\main.o
+                0x0800021c                main
+ .text.RCC_AHB1PeriphClockCmd
+                0x0800023c       0x3c ..\obj\stm32f4xx_rcc.o
+                0x0800023c                RCC_AHB1PeriphClockCmd
+ .text.RCC_APB1PeriphClockCmd
+                0x08000278       0x3c ..\obj\stm32f4xx_rcc.o
+                0x08000278                RCC_APB1PeriphClockCmd
+ .text.RCC_APB2PeriphClockCmd
+                0x080002b4       0x3c ..\obj\stm32f4xx_rcc.o
+                0x080002b4                RCC_APB2PeriphClockCmd
+ .text.GPIO_Init
+                0x080002f0      0x11a ..\obj\stm32f4xx_gpio.o
+                0x080002f0                GPIO_Init
+ .text.GPIO_PinAFConfig
+                0x0800040a       0x90 ..\obj\stm32f4xx_gpio.o
+                0x0800040a                GPIO_PinAFConfig
+ *fill*         0x0800049a        0x2 
+ .text.SystemInit
+                0x0800049c       0x5c ..\obj\system_stm32f4xx.o
+                0x0800049c                SystemInit
+ .text.SetSysClock
+                0x080004f8       0xf4 ..\obj\system_stm32f4xx.o
+ .text.DMA_DeInit
+                0x080005ec      0x1a4 ..\obj\stm32f4xx_dma.o
+                0x080005ec                DMA_DeInit
+ .text.DMA_Init
+                0x08000790       0xac ..\obj\stm32f4xx_dma.o
+                0x08000790                DMA_Init
+ .text.DMA_Cmd  0x0800083c       0x36 ..\obj\stm32f4xx_dma.o
+                0x0800083c                DMA_Cmd
+ .text.DMA_ITConfig
+                0x08000872       0x72 ..\obj\stm32f4xx_dma.o
+                0x08000872                DMA_ITConfig
+ .text.DMA_GetITStatus
+                0x080008e4       0xac ..\obj\stm32f4xx_dma.o
+                0x080008e4                DMA_GetITStatus
+ .text.DMA_ClearITPendingBit
+                0x08000990       0x5c ..\obj\stm32f4xx_dma.o
+                0x08000990                DMA_ClearITPendingBit
+ .text.UB_VGA_Screen_Init
+                0x080009ec       0x80 ..\obj\stm32_ub_vga_screen.o
+                0x080009ec                UB_VGA_Screen_Init
+ .text.UB_VGA_FillScreen
+                0x08000a6c       0x44 ..\obj\stm32_ub_vga_screen.o
+                0x08000a6c                UB_VGA_FillScreen
+ .text.UB_VGA_SetPixel
+                0x08000ab0       0x4c ..\obj\stm32_ub_vga_screen.o
+                0x08000ab0                UB_VGA_SetPixel
+ .text.P_VGA_InitIO
+                0x08000afc       0xa8 ..\obj\stm32_ub_vga_screen.o
+                0x08000afc                P_VGA_InitIO
+ .text.P_VGA_InitTIM
+                0x08000ba4       0xcc ..\obj\stm32_ub_vga_screen.o
+                0x08000ba4                P_VGA_InitTIM
+ .text.P_VGA_InitINT
+                0x08000c70       0x58 ..\obj\stm32_ub_vga_screen.o
+                0x08000c70                P_VGA_InitINT
+ .text.P_VGA_InitDMA
+                0x08000cc8       0x90 ..\obj\stm32_ub_vga_screen.o
+                0x08000cc8                P_VGA_InitDMA
+ .text.TIM2_IRQHandler
+                0x08000d58       0xbc ..\obj\stm32_ub_vga_screen.o
+                0x08000d58                TIM2_IRQHandler
+ .text.DMA2_Stream5_IRQHandler
+                0x08000e14       0x4c ..\obj\stm32_ub_vga_screen.o
+                0x08000e14                DMA2_Stream5_IRQHandler
+ .text.NVIC_Init
+                0x08000e60       0xc4 ..\obj\misc.o
+                0x08000e60                NVIC_Init
+ .text.TIM_TimeBaseInit
+                0x08000f24       0xd4 ..\obj\stm32f4xx_tim.o
+                0x08000f24                TIM_TimeBaseInit
+ .text.TIM_ARRPreloadConfig
+                0x08000ff8       0x3e ..\obj\stm32f4xx_tim.o
+                0x08000ff8                TIM_ARRPreloadConfig
+ .text.TIM_Cmd  0x08001036       0x3e ..\obj\stm32f4xx_tim.o
+                0x08001036                TIM_Cmd
+ .text.TIM_OC3Init
+                0x08001074      0x10c ..\obj\stm32f4xx_tim.o
+                0x08001074                TIM_OC3Init
+ .text.TIM_OC4Init
+                0x08001180       0xcc ..\obj\stm32f4xx_tim.o
+                0x08001180                TIM_OC4Init
+ .text.TIM_OC3PreloadConfig
+                0x0800124c       0x36 ..\obj\stm32f4xx_tim.o
+                0x0800124c                TIM_OC3PreloadConfig
+ .text.TIM_OC4PreloadConfig
+                0x08001282       0x3a ..\obj\stm32f4xx_tim.o
+                0x08001282                TIM_OC4PreloadConfig
+ .text.TIM_ITConfig
+                0x080012bc       0x46 ..\obj\stm32f4xx_tim.o
+                0x080012bc                TIM_ITConfig
+ .text.TIM_ClearITPendingBit
+                0x08001302       0x20 ..\obj\stm32f4xx_tim.o
+                0x08001302                TIM_ClearITPendingBit
+ .text.TIM_DMACmd
+                0x08001322       0x46 ..\obj\stm32f4xx_tim.o
+                0x08001322                TIM_DMACmd
+ *(.init)
+ *(.fini)
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ *(.eh_fram e*)
+
+.glue_7         0x08001368        0x0
+ .glue_7        0x08001368        0x0 linker stubs
+
+.glue_7t        0x08001368        0x0
+ .glue_7t       0x08001368        0x0 linker stubs
+
+.vfp11_veneer   0x08001368        0x0
+ .vfp11_veneer  0x08001368        0x0 linker stubs
+
+.v4_bx          0x08001368        0x0
+ .v4_bx         0x08001368        0x0 linker stubs
+
+.iplt           0x08001368        0x0
+ .iplt          0x08001368        0x0 ..\obj\stm32f4xx_usart.o
+
+.rel.dyn        0x08001368        0x0
+ .rel.iplt      0x08001368        0x0 ..\obj\stm32f4xx_usart.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x08001368                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x08001368                __exidx_end = .
+                0x08001368                __etext = .
+                0x08001368                _sidata = __etext
+
+.data           0x20000000        0x0 load address 0x08001368
+                0x20000000                __data_start__ = .
+                0x20000000                _sdata = __data_start__
+ *(vtable)
+ *(.data*)
+                0x20000000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                [!provide]                PROVIDE (__preinit_array_end, .)
+                0x20000000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+                [!provide]                PROVIDE (__init_array_end, .)
+                0x20000000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+                [!provide]                PROVIDE (__fini_array_end, .)
+ *(.jcr*)
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                __data_end__ = .
+                0x20000000                _edata = __data_end__
+
+.igot.plt       0x20000000        0x0
+ .igot.plt      0x20000000        0x0 ..\obj\stm32f4xx_usart.o
+
+.bss            0x20000000    0x12cfc
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                __bss_start__ = .
+                0x20000000                _sbss = __bss_start__
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x20000000    0x12cfc ..\obj\read_write_pixel.o
+                0x20000000                VGA
+                0x2000000c                VGA_RAM1
+                0x20012cfc                . = ALIGN (0x4)
+                0x20012cfc                __bss_end__ = .
+                0x20012cfc                _ebss = __bss_end__
+
+.heap           0x20012cfc        0x0
+                0x20012cfc                __end__ = .
+                0x20012cfc                _end = __end__
+                0x20012cfc                end = __end__
+ *(.heap*)
+                0x20012cfc                __HeapLimit = .
+
+.co_stack       0x20012cfc      0x804
+                0x20012d00                . = ALIGN (0x8)
+ *fill*         0x20012cfc        0x4 
+ *(.co_stack .co_stack.*)
+ .co_stack      0x20012d00      0x800 ..\obj\startup_stm32f4xx.o
+                0x20012d00                pulStack
+                0x20020000                __StackTop = (ORIGIN (ram) + LENGTH (ram))
+                0x2001f7fc                __StackLimit = (__StackTop - SIZEOF (.co_stack))
+                [!provide]                PROVIDE (__stack, __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region ram  overflowed with stack)
+LOAD ..\obj\stm32f4xx_usart.o
+LOAD ..\obj\startup_stm32f4xx.o
+LOAD ..\obj\read_write_pixel.o
+LOAD ..\obj\main.o
+LOAD ..\obj\stm32f4xx_rcc.o
+LOAD ..\obj\input.o
+LOAD ..\obj\stm32f4xx_gpio.o
+LOAD ..\obj\system_stm32f4xx.o
+LOAD ..\obj\stm32f4xx_dma.o
+LOAD ..\obj\figures.o
+LOAD ..\obj\bitmap.o
+LOAD ..\obj\stm32_ub_vga_screen.o
+LOAD ..\obj\misc.o
+LOAD ..\obj\tekts.o
+LOAD ..\obj\stm32f4xx_tim.o
+LOAD d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a
+START GROUP
+LOAD d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a
+LOAD d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a
+LOAD d:/coocox/coide/workspace/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a
+END GROUP
+OUTPUT(VGA_project_V1.1.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x58e9
+ .debug_info    0x00000000      0x10f ..\obj\startup_stm32f4xx.o
+ .debug_info    0x0000010f      0x1b3 ..\obj\read_write_pixel.o
+ .debug_info    0x000002c2      0x9eb ..\obj\main.o
+ .debug_info    0x00000cad      0xc6e ..\obj\stm32f4xx_rcc.o
+ .debug_info    0x0000191b      0x621 ..\obj\stm32f4xx_gpio.o
+ .debug_info    0x00001f3c      0x5cc ..\obj\system_stm32f4xx.o
+ .debug_info    0x00002508      0x748 ..\obj\stm32f4xx_dma.o
+ .debug_info    0x00002c50      0xae0 ..\obj\stm32_ub_vga_screen.o
+ .debug_info    0x00003730      0x549 ..\obj\misc.o
+ .debug_info    0x00003c79     0x1c70 ..\obj\stm32f4xx_tim.o
+
+.debug_abbrev   0x00000000      0xf2f
+ .debug_abbrev  0x00000000       0xbf ..\obj\startup_stm32f4xx.o
+ .debug_abbrev  0x000000bf       0xfc ..\obj\read_write_pixel.o
+ .debug_abbrev  0x000001bb      0x20b ..\obj\main.o
+ .debug_abbrev  0x000003c6      0x1f6 ..\obj\stm32f4xx_rcc.o
+ .debug_abbrev  0x000005bc      0x1b6 ..\obj\stm32f4xx_gpio.o
+ .debug_abbrev  0x00000772      0x156 ..\obj\system_stm32f4xx.o
+ .debug_abbrev  0x000008c8      0x166 ..\obj\stm32f4xx_dma.o
+ .debug_abbrev  0x00000a2e      0x1f9 ..\obj\stm32_ub_vga_screen.o
+ .debug_abbrev  0x00000c27      0x170 ..\obj\misc.o
+ .debug_abbrev  0x00000d97      0x198 ..\obj\stm32f4xx_tim.o
+
+.debug_aranges  0x00000000      0x6e0
+ .debug_aranges
+                0x00000000       0x28 ..\obj\startup_stm32f4xx.o
+ .debug_aranges
+                0x00000028       0x20 ..\obj\read_write_pixel.o
+ .debug_aranges
+                0x00000048       0x20 ..\obj\main.o
+ .debug_aranges
+                0x00000068      0x178 ..\obj\stm32f4xx_rcc.o
+ .debug_aranges
+                0x000001e0       0x88 ..\obj\stm32f4xx_gpio.o
+ .debug_aranges
+                0x00000268       0x30 ..\obj\system_stm32f4xx.o
+ .debug_aranges
+                0x00000298       0xb0 ..\obj\stm32f4xx_dma.o
+ .debug_aranges
+                0x00000348       0x60 ..\obj\stm32_ub_vga_screen.o
+ .debug_aranges
+                0x000003a8       0x40 ..\obj\misc.o
+ .debug_aranges
+                0x000003e8      0x2f8 ..\obj\stm32f4xx_tim.o
+
+.debug_ranges   0x00000000      0x640
+ .debug_ranges  0x00000000       0x18 ..\obj\startup_stm32f4xx.o
+ .debug_ranges  0x00000018       0x10 ..\obj\read_write_pixel.o
+ .debug_ranges  0x00000028       0x10 ..\obj\main.o
+ .debug_ranges  0x00000038      0x168 ..\obj\stm32f4xx_rcc.o
+ .debug_ranges  0x000001a0       0x78 ..\obj\stm32f4xx_gpio.o
+ .debug_ranges  0x00000218       0x20 ..\obj\system_stm32f4xx.o
+ .debug_ranges  0x00000238       0xa0 ..\obj\stm32f4xx_dma.o
+ .debug_ranges  0x000002d8       0x50 ..\obj\stm32_ub_vga_screen.o
+ .debug_ranges  0x00000328       0x30 ..\obj\misc.o
+ .debug_ranges  0x00000358      0x2e8 ..\obj\stm32f4xx_tim.o
+
+.debug_line     0x00000000     0x26b6
+ .debug_line    0x00000000       0xb1 ..\obj\startup_stm32f4xx.o
+ .debug_line    0x000000b1      0x206 ..\obj\read_write_pixel.o
+ .debug_line    0x000002b7      0x2f5 ..\obj\main.o
+ .debug_line    0x000005ac      0x5dd ..\obj\stm32f4xx_rcc.o
+ .debug_line    0x00000b89      0x398 ..\obj\stm32f4xx_gpio.o
+ .debug_line    0x00000f21      0x1fa ..\obj\system_stm32f4xx.o
+ .debug_line    0x0000111b      0x462 ..\obj\stm32f4xx_dma.o
+ .debug_line    0x0000157d      0x3ca ..\obj\stm32_ub_vga_screen.o
+ .debug_line    0x00001947      0x276 ..\obj\misc.o
+ .debug_line    0x00001bbd      0xaf9 ..\obj\stm32f4xx_tim.o
+
+.debug_str      0x00000000     0x2974
+ .debug_str     0x00000000      0x157 ..\obj\startup_stm32f4xx.o
+                                0x169 (size before relaxing)
+ .debug_str     0x00000157      0x13e ..\obj\read_write_pixel.o
+                                0x224 (size before relaxing)
+ .debug_str     0x00000295      0x467 ..\obj\main.o
+                                0x645 (size before relaxing)
+ .debug_str     0x000006fc      0x6c4 ..\obj\stm32f4xx_rcc.o
+                                0x870 (size before relaxing)
+ .debug_str     0x00000dc0      0x338 ..\obj\stm32f4xx_gpio.o
+                                0x4c3 (size before relaxing)
+ .debug_str     0x000010f8      0x118 ..\obj\system_stm32f4xx.o
+                                0x3ba (size before relaxing)
+ .debug_str     0x00001210      0x3a1 ..\obj\stm32f4xx_dma.o
+                                0x562 (size before relaxing)
+ .debug_str     0x000015b1      0x844 ..\obj\stm32_ub_vga_screen.o
+                                0xcfd (size before relaxing)
+ .debug_str     0x00001df5      0x171 ..\obj\misc.o
+                                0x3ee (size before relaxing)
+ .debug_str     0x00001f66      0xa0e ..\obj\stm32f4xx_tim.o
+                                0xdf0 (size before relaxing)
+
+.comment        0x00000000       0x7f
+ .comment       0x00000000       0x7f ..\obj\startup_stm32f4xx.o
+                                 0x80 (size before relaxing)
+ .comment       0x0000007f       0x80 ..\obj\read_write_pixel.o
+ .comment       0x0000007f       0x80 ..\obj\main.o
+ .comment       0x0000007f       0x80 ..\obj\stm32f4xx_rcc.o
+ .comment       0x0000007f       0x80 ..\obj\stm32f4xx_gpio.o
+ .comment       0x0000007f       0x80 ..\obj\system_stm32f4xx.o
+ .comment       0x0000007f       0x80 ..\obj\stm32f4xx_dma.o
+ .comment       0x0000007f       0x80 ..\obj\stm32_ub_vga_screen.o
+ .comment       0x0000007f       0x80 ..\obj\misc.o
+ .comment       0x0000007f       0x80 ..\obj\stm32f4xx_tim.o
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\startup_stm32f4xx.o
+ .ARM.attributes
+                0x00000033       0x33 ..\obj\read_write_pixel.o
+ .ARM.attributes
+                0x00000066       0x33 ..\obj\main.o
+ .ARM.attributes
+                0x00000099       0x33 ..\obj\stm32f4xx_rcc.o
+ .ARM.attributes
+                0x000000cc       0x33 ..\obj\stm32f4xx_gpio.o
+ .ARM.attributes
+                0x000000ff       0x33 ..\obj\system_stm32f4xx.o
+ .ARM.attributes
+                0x00000132       0x33 ..\obj\stm32f4xx_dma.o
+ .ARM.attributes
+                0x00000165       0x33 ..\obj\stm32_ub_vga_screen.o
+ .ARM.attributes
+                0x00000198       0x33 ..\obj\misc.o
+ .ARM.attributes
+                0x000001cb       0x33 ..\obj\stm32f4xx_tim.o
+
+.debug_frame    0x00000000     0x1db4
+ .debug_frame   0x00000000       0x4c ..\obj\startup_stm32f4xx.o
+ .debug_frame   0x0000004c       0x34 ..\obj\read_write_pixel.o
+ .debug_frame   0x00000080       0x2c ..\obj\main.o
+ .debug_frame   0x000000ac      0x6d4 ..\obj\stm32f4xx_rcc.o
+ .debug_frame   0x00000780      0x23c ..\obj\stm32f4xx_gpio.o
+ .debug_frame   0x000009bc       0x7c ..\obj\system_stm32f4xx.o
+ .debug_frame   0x00000a38      0x308 ..\obj\stm32f4xx_dma.o
+ .debug_frame   0x00000d40      0x148 ..\obj\stm32_ub_vga_screen.o
+ .debug_frame   0x00000e88       0xd8 ..\obj\misc.o
+ .debug_frame   0x00000f60      0xe54 ..\obj\stm32f4xx_tim.o
