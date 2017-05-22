@@ -5,44 +5,68 @@ typedef enum fill{Nofill,Fill};
 
 
 
-void line(uint16_t start_x_pos, uint16_t start_y_pos, uint16_t length, uint16_t direction, uint16_t color)
+void line(int start_x_pos, int start_y_pos, int end_x_pos, int end_y_pos, uint16_t color)
 {
 
-int x;
-int y;
+	float fverhouding_xy;
+	float fverhouding_yx;
+	int verhouding_xy;
+	int verhouding_yx;
+	int i; // y_teller
+	int j; // x_teller
+	int x_pos;
+	float y_pos;
+	float maxy = end_y_pos-start_y_pos;
+	float maxx = end_x_pos-start_x_pos;
 
-	if (direction == Up)
+	//maxy = end_y_pos-start_y_pos;
+	//maxx = end_x_pos-start_x_pos;
+	fverhouding_xy= maxx/maxy;
+	fverhouding_yx= maxy/maxx;
+	verhouding_xy= fverhouding_xy;
+	verhouding_yx=fverhouding_yx;
+
+
+	if (320+maxy<320)
 	{
-		UB_VGA_SetPixel(start_x_pos,start_y_pos,color);
-		for (y = start_y_pos-length; y < start_y_pos; ++y)
+
+		for (i = end_y_pos;  i< start_y_pos; ++i)
 		{
-			UB_VGA_SetPixel(start_x_pos,y,color);
+
+			for (j = start_x_pos; j < end_x_pos; ++j)
+			{
+				if (i-end_y_pos==j-start_x_pos)
+				{
+
+					if (verhouding_xy>verhouding_yx)
+						UB_VGA_SetPixel(start_x_pos+j,i*fverhouding_xy,color);
+					if (verhouding_xy<verhouding_yx)
+						UB_VGA_SetPixel(end_x_pos+j*fverhouding_yx,i, color);
+				}
+			}
 		}
 	}
-	if (direction == Down)
+
+
+	for (i = start_y_pos;  i< end_y_pos; ++i)
 	{
-		UB_VGA_SetPixel(start_x_pos,start_y_pos,color);
-		for (y = start_y_pos; y < start_y_pos+length; ++y)
+
+		for (j = start_x_pos; j < end_x_pos; ++j)
 		{
-			UB_VGA_SetPixel(start_x_pos,y,color);
+			if (i-start_y_pos==j-start_x_pos)
+			{
+
+				if (verhouding_xy>verhouding_yx)
+					UB_VGA_SetPixel(j,i*fverhouding_xy,color);
+				if (verhouding_xy<verhouding_yx)
+					UB_VGA_SetPixel(j*fverhouding_yx,i, color);
+			}
 		}
 	}
-	if (direction == Left)
-	{
-		UB_VGA_SetPixel(start_x_pos,start_y_pos,color);
-		for (x = start_x_pos-length; x < start_x_pos; ++x)
-		{
-			UB_VGA_SetPixel(x,start_y_pos,color);
-		}
-	}
-	if (direction == Right)
-	{
-		UB_VGA_SetPixel(start_x_pos,start_y_pos,color);
-		for (x = start_x_pos; x < start_x_pos+length; ++x)
-		{
-			UB_VGA_SetPixel(x,start_y_pos,color);
-		}
-	}
+
+
+
+
 }
 
 
@@ -165,7 +189,8 @@ int j; // x_pos_counter
 int k; // line thickness counter
 
 
-float proportion = height/width;
+int proportion = abs(height)/abs(width);
+//int	  proportion = abs(proportion);
 
 if (fill ==  Fill)
 {
