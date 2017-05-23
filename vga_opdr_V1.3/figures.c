@@ -16,58 +16,129 @@ void line(int start_x_pos, int start_y_pos, int end_x_pos, int end_y_pos, uint16
 	int j; // x_teller
 	int x_pos;
 	float y_pos;
-	float maxy = end_y_pos-start_y_pos;
-	float maxx = end_x_pos-start_x_pos;
+	float maxy;
+	float maxx;
+	int select;
 
-	//maxy = end_y_pos-start_y_pos;
-	//maxx = end_x_pos-start_x_pos;
-	fverhouding_xy= maxx/maxy;
-	fverhouding_yx= maxy/maxx;
-	verhouding_xy= fverhouding_xy;
-	verhouding_yx=fverhouding_yx;
+//	maxy = end_y_pos-start_y_pos;
+//	maxx = end_x_pos-start_x_pos;
+//	fverhouding_xy= maxx/maxy;
+//	fverhouding_yx= maxy/maxx;
+//	verhouding_xy= fverhouding_xy;
+//	verhouding_yx=fverhouding_yx;
+
+	UB_VGA_SetPixel(start_x_pos,start_y_pos,VGA_COL_RED);
+	UB_VGA_SetPixel(end_x_pos,end_y_pos,VGA_COL_BLUE);
+
+//	if (start_y_pos > end_y_pos)
+//		{
+		 	maxy = start_y_pos-end_y_pos;
+		 	maxx = start_x_pos-end_x_pos;
+			fverhouding_xy= maxx/maxy;
+			fverhouding_yx= maxy/maxx;
+			select = 1;
+//		}
+//		if (start_y_pos<end_y_pos)
+//		{
+//			maxy = start_y_pos-end_y_pos;
+//			maxx = start_x_pos-end_x_pos;
+//			fverhouding_xy= maxx/maxy;
+//			fverhouding_yx= maxy/maxx;
+//			select =0;
+//		}
+//		else if (start_y_pos==end_y_pos)
+//		{
+//			for (i = 0; i < VGA_DISPLAY_Y; ++i)
+//			{
+//				for (j = 0; j < VGA_DISPLAY_X; ++j)
+//				{
+//					if (j>start_x_pos && j< end_x_pos && i > start_y_pos && i < end_y_pos)
+//						UB_VGA_SetPixel(j,start_y_pos,color);
+//				}
+//			}
+//		}
+//
+//		else if (start_x_pos==end_x_pos)
+//		{
+//			for (i = 0; i < VGA_DISPLAY_Y; ++i)
+//			{
+//				for (j = 0; j < VGA_DISPLAY_X; ++j)
+//				{
+//					if (j>start_x_pos && j< end_x_pos && i > start_y_pos && i < end_y_pos)
+//						UB_VGA_SetPixel(start_x_pos,i,color);
+//				}
+//			}
+//		}
+//
+//
+//
+//			for (i = 0; i < VGA_DISPLAY_Y; ++i)
+//			{
+//				for (j = 0; j < VGA_DISPLAY_X; ++j)
+//				{
+//					if (j>start_x_pos && j< end_x_pos && i > start_y_pos && i < end_y_pos)
+//					{
+//						if (select == 1)
+//						UB_VGA_SetPixel(j,j*fverhouding_yx+end_y_pos, color);
+//						if (select == 0)
+//							UB_VGA_SetPixel(j,j*fverhouding_yx+end_y_pos-start_x_pos, color);
+//
+//					}
+//				}
+//			}
+//		}
+
+//	else if (start_y_pos==end_y_pos)
+//	{
+//		for (i = 0; i < VGA_DISPLAY_Y; ++i)
+//		{
+//			for (j = 0; j < VGA_DISPLAY_X; ++j)
+//			{
+//				if (j>start_x_pos && j< end_x_pos && i > start_y_pos && i < end_y_pos)
+//					UB_VGA_SetPixel(j,start_y_pos,color);
+//			}
+//		}
+//	}
+//
+//	else if (start_x_pos==end_x_pos)
+//	{
+//		for (i = 0; i < VGA_DISPLAY_Y; ++i)
+//		{
+//			for (j = 0; j < VGA_DISPLAY_X; ++j)
+//			{
+//				if (j>start_x_pos && j< end_x_pos && i > start_y_pos && i < end_y_pos)
+//					UB_VGA_SetPixel(start_x_pos,i,color);
+//			}
+//		}
+//	}
+
+//	 if (start_y_pos<end_y_pos)
+//	{
+//		maxy = end_y_pos-start_y_pos;
+//		maxx = end_x_pos-start_x_pos;
+//		fverhouding_xy= maxx/maxy;
+//		fverhouding_yx= maxy/maxx;
 
 
-	if (320+maxy<320)
+	for (i = 0; i < VGA_DISPLAY_Y; ++i)
 	{
-
-		for (i = end_y_pos;  i< start_y_pos; ++i)
+		for (j = 0; j < VGA_DISPLAY_X; ++j)
 		{
-
-			for (j = start_x_pos; j < end_x_pos; ++j)
+			if (j>start_x_pos && j< end_x_pos && i > start_y_pos && i < end_y_pos)
 			{
-				if (i-end_y_pos==j-start_x_pos)
-				{
-
-					if (verhouding_xy>verhouding_yx)
-						UB_VGA_SetPixel(start_x_pos+j,i*fverhouding_xy,color);
-					if (verhouding_xy<verhouding_yx)
-						UB_VGA_SetPixel(end_x_pos+j*fverhouding_yx,i, color);
-				}
+					UB_VGA_SetPixel(j,j*fverhouding_xy+start_y_pos-start_x_pos, color);
 			}
 		}
 	}
-
-
-	for (i = start_y_pos;  i< end_y_pos; ++i)
-	{
-
-		for (j = start_x_pos; j < end_x_pos; ++j)
-		{
-			if (i-start_y_pos==j-start_x_pos)
-			{
-
-				if (verhouding_xy>verhouding_yx)
-					UB_VGA_SetPixel(j,i*fverhouding_xy,color);
-				if (verhouding_xy<verhouding_yx)
-					UB_VGA_SetPixel(j*fverhouding_yx,i, color);
-			}
-		}
-	}
-
-
-
+//	}
 
 }
+
+
+
+
+
+
 
 
 void square(uint16_t start_x_pos,uint16_t start_y_pos, uint16_t length, uint16_t width, uint16_t color, uint16_t thickness_lines, uint16_t fill)
