@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=output.map -O3 --gc-sections -LD:\coocox\CoIDE\configuration\ProgramData\uart_command_q2 -TD:\coocox\CoIDE\configuration\ProgramData\uart_command_q2/link.ld -g">
+      <target file="output.elf" lastModified="15c4f3df5f8">
+         <source file="..\obj\delay.o" lastModified="15c4f3dda29"/>
+         <source file="..\obj\os_time.o" lastModified="15c4f3ddaca"/>
+         <source file="..\obj\os_cpu_a.o" lastModified="15c4f3ddadb"/>
+         <source file="..\obj\keys.o" lastModified="15c4f3ddb76"/>
+         <source file="..\obj\buzzer.o" lastModified="15c4f3ddc36"/>
+         <source file="..\obj\os_cpu_c.o" lastModified="15c4f3ddcb9"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="15c4f3ddd6c"/>
+         <source file="..\obj\os_flag.o" lastModified="15c4f3ddeda"/>
+         <source file="..\obj\uarttask.o" lastModified="15c4f3ddf6a"/>
+         <source file="..\obj\uart.o" lastModified="15c4f3de093"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="15c4f3de15d"/>
+         <source file="..\obj\taskcreate.o" lastModified="15c4f3de214"/>
+         <source file="..\obj\main.o" lastModified="15c4f3de2df"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="15c4f3de402"/>
+         <source file="..\obj\printf.o" lastModified="15c4f3de5f8"/>
+         <source file="..\obj\os_sem.o" lastModified="15c4f3de6a8"/>
+         <source file="..\obj\distrib.o" lastModified="15c4f3de73c"/>
+         <source file="..\obj\os_core.o" lastModified="15c4f3de8c0"/>
+         <source file="..\obj\leds.o" lastModified="15c4f3de94b"/>
+         <source file="..\obj\outputs.o" lastModified="15c4f3dea07"/>
+         <source file="..\obj\os_mem.o" lastModified="15c4f3deaea"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="15c4f3deb82"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="15c4f3dec4b"/>
+         <source file="..\obj\syscalls.o" lastModified="15c4f3decca"/>
+         <source file="..\obj\os_q.o" lastModified="15c4f3dedf8"/>
+         <source file="..\obj\os_task.o" lastModified="15c4f3def57"/>
+         <source file="..\obj\lcd.o" lastModified="15c4f3df130"/>
+         <source file="..\obj\misc.o" lastModified="15c4f3df1de"/>
+         <source file="..\obj\ucos_ii.o" lastModified="15c4f3df29a"/>
+         <source file="..\obj\os_mbox.o" lastModified="15c4f3df355"/>
+      </target>
+   </processor>
+</history>

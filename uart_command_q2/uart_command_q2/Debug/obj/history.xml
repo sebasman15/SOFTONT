@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O3 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -IC:\Users\Sebastian Smit -IC:\Users\Sebastian Smit\Documents\uart_command_q2\uC-OS II\Processor specific -IC:\Users\Sebastian Smit\Documents\uart_command_q2 -IC:\Users\Sebastian Smit\Documents\uart_command_q2\uC-OS II\Processor independent -IC:\Users\Sebastian Smit\Documents\uart_command_q2\cmsis_boot -IC:\Users\Sebastian Smit\Documents -IC:\Users\Sebastian Smit\Documents\uart_command_q2\uC-OS II -IC:\Users\Sebastian Smit\Documents\uart_command_q2\cmsis_lib\include -IC:\Users\Sebastian Smit\Documents\uart_command_q2\ports -IC:\Users\Sebastian Smit\Documents\uart_command_q2\cmsis -IC:\Users\Sebastian Smit\Documents\uart_command_q2\cmsis_lib -IC:\Users\Sebastian Smit\Documents\uart_command_q2\uC-OS II\Application specific">
+      <target file="os_flag.o" lastModified="15c4f3ddeda">
+         <source file="..\..\..\uC-OS II\Processor independent\os_flag.c" lastModified="14273aa7420"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="15c4f3deb82">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="14259f29760"/>
+      </target>
+      <target file="buzzer.o" lastModified="15c4f3ddc36">
+         <source file="..\..\..\ports\buzzer.c" lastModified="147102eb7f8"/>
+      </target>
+      <target file="uarttask.o" lastModified="15c4f3ddf6a">
+         <source file="..\..\..\uarttask.c" lastModified="148cfb60dd4"/>
+      </target>
+      <target file="os_sem.o" lastModified="15c4f3de6a8">
+         <source file="..\..\..\uC-OS II\Processor independent\os_sem.c" lastModified="14269081270"/>
+      </target>
+      <target file="os_mbox.o" lastModified="15c4f3df355">
+         <source file="..\..\..\uC-OS II\Processor independent\os_mbox.c" lastModified="14269082210"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="15c4f3de15d">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="146c8d40a70"/>
+      </target>
+      <target file="ucos_ii.o" lastModified="15c4f3df29a">
+         <source file="..\..\..\uC-OS II\Processor independent\ucos_ii.c" lastModified="14268f22140"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="15c4f3dec4b">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="1471a9ba610"/>
+      </target>
+      <target file="printf.o" lastModified="15c4f3de5f8">
+         <source file="..\..\..\stdio\printf.c" lastModified="1429c735750"/>
+      </target>
+      <target file="taskcreate.o" lastModified="15c4f3de214">
+         <source file="..\..\..\taskcreate.c" lastModified="147ed659bc8"/>
+      </target>
+      <target file="os_cpu_a.o" lastModified="15c4f3ddadb">
+         <source file="..\..\..\uC-OS II\Processor specific\os_cpu_a.s" lastModified="1429c61e290"/>
+      </target>
+      <target file="misc.o" lastModified="15c4f3df1de">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="14292da5ef0"/>
+      </target>
+      <target file="leds.o" lastModified="15c4f3de94b">
+         <source file="..\..\..\ports\leds.c" lastModified="147eeefdb26"/>
+      </target>
+      <target file="keys.o" lastModified="15c4f3ddb76">
+         <source file="..\..\..\ports\keys.c" lastModified="14710ff7190"/>
+      </target>
+      <target file="outputs.o" lastModified="15c4f3dea07">
+         <source file="..\..\..\outputs.c" lastModified="148cc6e5e0b"/>
+      </target>
+      <target file="os_cpu_c.o" lastModified="15c4f3ddcb9">
+         <source file="..\..\..\uC-OS II\Processor specific\os_cpu_c.c" lastModified="1429c65ab50"/>
+      </target>
+      <target file="os_mem.o" lastModified="15c4f3deaea">
+         <source file="..\..\..\uC-OS II\Processor independent\os_mem.c" lastModified="142690829e0"/>
+      </target>
+      <target file="os_q.o" lastModified="15c4f3dedf8">
+         <source file="..\..\..\uC-OS II\Processor independent\os_q.c" lastModified="14269081a40"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="15c4f3de402">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="142546cdd50"/>
+      </target>
+      <target file="os_time.o" lastModified="15c4f3ddaca">
+         <source file="..\..\..\uC-OS II\Processor independent\os_time.c" lastModified="14269080aa0"/>
+      </target>
+      <target file="uart.o" lastModified="15c4f3de093">
+         <source file="..\..\..\ports\uart.c" lastModified="147edfd81dc"/>
+      </target>
+      <target file="delay.o" lastModified="15c4f3dda29">
+         <source file="..\..\..\ports\delay.c" lastModified="1429c91e3a0"/>
+      </target>
+      <target file="syscalls.o" lastModified="15c4f3decca">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="1429c735750"/>
+      </target>
+      <target file="distrib.o" lastModified="15c4f3de73c">
+         <source file="..\..\..\distrib.c" lastModified="148cfb305e6"/>
+      </target>
+      <target file="os_task.o" lastModified="15c4f3def57">
+         <source file="..\..\..\uC-OS II\Processor independent\os_task.c" lastModified="14269086860"/>
+      </target>
+      <target file="os_core.o" lastModified="15c4f3de8c0">
+         <source file="..\..\..\uC-OS II\Processor independent\os_core.c" lastModified="1427db00930"/>
+      </target>
+      <target file="lcd.o" lastModified="15c4f3df130">
+         <source file="..\..\..\ports\lcd.c" lastModified="147eee54714"/>
+      </target>
+      <target file="main.o" lastModified="15c4f3de2df">
+         <source file="..\..\..\main.c" lastModified="148cfbf3893"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="15c4f3ddd6c">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="1429c67ddd0"/>
+      </target>
+   </processor>
+</history>
