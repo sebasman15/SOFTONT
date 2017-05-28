@@ -1,6 +1,6 @@
 #include "stm32_ub_vga_screen.h"
 
-typedef enum direction{Up,Down,Right,Left};
+
 typedef enum fill{Nofill,Fill};
 
 
@@ -25,67 +25,48 @@ void line(int start_x_pos, int start_y_pos, int end_x_pos, int end_y_pos, uint16
 	UB_VGA_SetPixel(start_x_pos,start_y_pos,VGA_COL_RED);
 	UB_VGA_SetPixel(end_x_pos,end_y_pos,VGA_COL_BLUE);
 
-
-	// horizontale lijnen linksonder naar rechtsboven
-//	maxy = end_y_pos-start_y_pos;
-//	maxx = start_x_pos-end_x_pos;
-//	fverhouding_xy= maxx/maxy;
-//	fverhouding_yx= maxy/maxx;
-//
-//	for (i = 0; i < VGA_DISPLAY_Y; ++i)
-//	{
-//		for (j = 0; j < VGA_DISPLAY_X; ++j)
-//		{
-//			if (j>start_x_pos && j< end_x_pos && i < start_y_pos && i > end_y_pos)
-//			{
-//					UB_VGA_SetPixel(j,240-(j*fverhouding_yx+end_y_pos-start_x_pos), color);
-//			}
-//		}
-//	}
+//	// horizontale lijnen linkssboven naar rechtsonder
+ 	maxy = start_y_pos-end_y_pos;
+ 	maxx = start_x_pos-end_x_pos;
+	fverhouding_xy= maxx/maxy;
+	fverhouding_yx= maxy/maxx;
 
 
-	// horizontale lijnen linkssboven naar rechtsonder
-// 	maxy = start_y_pos-end_y_pos;
-// 	maxx = start_x_pos-end_x_pos;
-//	fverhouding_xy= maxx/maxy;
-//	fverhouding_yx= maxy/maxx;
-//
-//
-//
-//	for (i = 0; i < VGA_DISPLAY_Y; ++i)
-//	{
-//		for (j = 0; j < VGA_DISPLAY_X; ++j)
-//		{
-//			if (j>start_x_pos && j< end_x_pos && i > start_y_pos && i < end_y_pos)
-//			{
-//					UB_VGA_SetPixel(j,j*fverhouding_yx+start_y_pos-start_x_pos, color);
-//			}
-//		}
-//	}
 
-//	// verticale lijnen links boven naar rechts onder
-//	 	maxy = start_y_pos-end_y_pos;
-//	 	maxx = start_x_pos-end_x_pos;
-//		fverhouding_xy= maxx/maxy;
-//		fverhouding_yx= maxy/maxx;
+	for (i = 0; i < VGA_DISPLAY_Y; ++i)
+	{
+		for (j = 0; j < VGA_DISPLAY_X; ++j)
+		{
+			if (j>start_x_pos && j< end_x_pos && i > start_y_pos && i < end_y_pos)
+			{
+					UB_VGA_SetPixel(j,j*fverhouding_yx+start_y_pos, color);
+			}
+		}
+	}
 //
-//
-//	for (i = 0; i < VGA_DISPLAY_Y; ++i)
-//	{
-//		for (j = 0; j < VGA_DISPLAY_X; ++j)
-//		{
-//			if (j>start_x_pos && j< end_x_pos && i > start_y_pos && i < end_y_pos)
-//			{
-//					UB_VGA_SetPixel(i*fverhouding_xy-start_y_pos+start_x_pos,i, color);
-//			}
-//		}
-//	}
+//	// horizontale lijnen linksonder naar rechtsboven
+	maxy = end_y_pos-start_y_pos;
+	maxx = start_x_pos-end_x_pos;
+	fverhouding_xy= maxx/maxy;
+	fverhouding_yx= maxy/maxx;
 
-	// verticale lijnen rechts boven naar links onder
+	for (i = 0; i < VGA_DISPLAY_Y; ++i)
+	{
+		for (j = 0; j < VGA_DISPLAY_X; ++j)
+		{
+			if (j>start_x_pos && j< end_x_pos && i < start_y_pos && i > end_y_pos)
+			{
+					UB_VGA_SetPixel(j,start_y_pos-j*fverhouding_yx, color);
+			}
+		}
+	}
+
+//	// verticale lijnen rechts boven naar links onder
 	 	maxy = start_y_pos-end_y_pos;
 	 	maxx = end_x_pos-start_x_pos;
 		fverhouding_xy= maxx/maxy;
 		fverhouding_yx= maxy/maxx;
+		verhouding_xy= fverhouding_xy;
 
 
 	for (i = 0; i < VGA_DISPLAY_Y; ++i)
@@ -94,80 +75,50 @@ void line(int start_x_pos, int start_y_pos, int end_x_pos, int end_y_pos, uint16
 		{
 			if (j<start_x_pos && j > end_x_pos && i > start_y_pos && i < end_y_pos)
 			{
-					UB_VGA_SetPixel(340-((i-end_x_pos)*fverhouding_xy+start_y_pos),i, color);
+					UB_VGA_SetPixel(start_x_pos-i*fverhouding_xy,i, color);
 			}
 		}
 	}
 
-//	if (start_y_pos > end_y_pos)
-//		{
-
-//			select = 1;
-//		}
-//		if (start_y_pos<end_y_pos)
-//		{
-//			maxy = start_y_pos-end_y_pos;
-//			maxx = start_x_pos-end_x_pos;
-//			fverhouding_xy= maxx/maxy;
-//			fverhouding_yx= maxy/maxx;
-//			select =0;
-//		}
-//		else if (start_y_pos==end_y_pos)
-//		{
-//			for (i = 0; i < VGA_DISPLAY_Y; ++i)
-//			{
-//				for (j = 0; j < VGA_DISPLAY_X; ++j)
-//				{
-//					if (j>start_x_pos && j< end_x_pos && i > start_y_pos && i < end_y_pos)
-//						UB_VGA_SetPixel(j,start_y_pos,color);
-//				}
-//			}
-//		}
-//
-//		else if (start_x_pos==end_x_pos)
-//		{
-//			for (i = 0; i < VGA_DISPLAY_Y; ++i)
-//			{
-//				for (j = 0; j < VGA_DISPLAY_X; ++j)
-//				{
-//					if (j>start_x_pos && j< end_x_pos && i > start_y_pos && i < end_y_pos)
-//						UB_VGA_SetPixel(start_x_pos,i,color);
-//				}
-//			}
-//		}
-//
-//
-//
-//			for (i = 0; i < VGA_DISPLAY_Y; ++i)
-//			{
-//				for (j = 0; j < VGA_DISPLAY_X; ++j)
-//				{
-//					if (j>start_x_pos && j< end_x_pos && i > start_y_pos && i < end_y_pos)
-//					{
-//						if (select == 1)
-//						UB_VGA_SetPixel(j,j*fverhouding_yx+end_y_pos, color);
-//						if (select == 0)
-//							UB_VGA_SetPixel(j,j*fverhouding_yx+end_y_pos-start_x_pos, color);
-//
-//					}
-//				}
-//			}
-//		}
-
-
-//
-
-
-//	 if (start_y_pos<end_y_pos)
-//	{
-//		maxy = end_y_pos-start_y_pos;
-//		maxx = end_x_pos-start_x_pos;
-//		fverhouding_xy= maxx/maxy;
-//		fverhouding_yx= maxy/maxx;
 
 
 
-//	}
+//	// verticale lijnen links boven naar rechts onder
+	 	maxy = start_y_pos-end_y_pos;
+	 	maxx = start_x_pos-end_x_pos;
+		fverhouding_xy= maxx/maxy;
+		fverhouding_yx= maxy/maxx;
+		verhouding_xy= fverhouding_xy;
+
+
+	for (i = 0; i < VGA_DISPLAY_Y; ++i)
+	{
+		for (j = 0; j < VGA_DISPLAY_X; ++j)
+		{
+			if (j>start_x_pos && j< end_x_pos && i > start_y_pos && i < end_y_pos)
+			{
+					UB_VGA_SetPixel(i*fverhouding_xy+start_x_pos,i, color);
+			}
+		}
+	}
+	// rechte lijnen verticaal
+			for (i = 0; i < VGA_DISPLAY_Y; ++i)
+			{
+				for (j = 0; j < VGA_DISPLAY_X; ++j)
+				{
+					if (start_y_pos==end_y_pos && j> start_x_pos && j<end_x_pos)
+						UB_VGA_SetPixel(j,start_y_pos,color);
+				}
+			}
+				//rechte lijnen horizontaal
+			for (i = 0; i < VGA_DISPLAY_Y; ++i)
+			{
+				for (j = 0; j < VGA_DISPLAY_X; ++j)
+					{
+							if (start_x_pos==end_x_pos&& i> start_y_pos && i<end_y_pos)
+							UB_VGA_SetPixel(start_x_pos,i,color);
+					}
+		}
 
 }
 
@@ -178,8 +129,11 @@ void line(int start_x_pos, int start_y_pos, int end_x_pos, int end_y_pos, uint16
 
 
 
-void square(uint16_t start_x_pos,uint16_t start_y_pos, uint16_t length, uint16_t width, uint16_t color, uint16_t thickness_lines, uint16_t fill)
+void square(int start_x_pos,int start_y_pos, int end_x_pos , int end_y_pos, int color, int thickness_lines, int fill)
 {
+
+int length = end_y_pos - start_y_pos;
+int width = end_x_pos - start_x_pos;
 
 int i; // x_teller
 int j;	// y_teller
@@ -205,6 +159,7 @@ width = width+start_x_pos;
 
 	if (fill == Fill)
 	{
+		thickness_lines = 1;
 		for(j = start_y_pos; j < length; ++j)
 			{
 				for (i = start_x_pos; i < width; ++i)
@@ -216,24 +171,52 @@ width = width+start_x_pos;
 }
 
 // morgen opnieuw beginnen
-void elipse (uint16_t start_x_pos, uint16_t start_y_pos, uint16_t height, uint16_t width, uint16_t line_thickness, uint16_t color, uint16_t fill)
+void elipse (int start_x_pos, int start_y_pos, int radius_x, int radius_y , int color, int line_thickness, int fill)
 {
-	// ten opzichte van het midden bereken je de rechter boog door de constante te berekenen aan de hand van de breedte op dat moment kan de proportie voor de gradenhoek vanaf het midden worden berekent. met die proportie kan je de schuine zijde berekenen en daarmee de hoogte. hoogte is het punt dat geplaatst moet worden met setpixel.
-//	int left_max_elipse;
-//	int right_max_elipse;
-//	int up_max_elipse;
-//	int down_max_elipse;
-	int half_width = 0.5* width;
-	int half_height = 0.5*height;
-	float triangle_const_elipse = 2*(sqrtf((half_height*half_height)+(half_width*half_width)));
-	int half_triangle_const_elipse = triangle_const_elipse*0.5;
-	float degrees;
-	float diagonal;
-	int i; // x_teller
-	int j; // y_teller
+// ten opzichte van het midden bereken je de rechter boog door de constante te berekenen aan de hand van de breedte op dat moment kan de proportie voor de gradenhoek vanaf het midden worden berekent. met die proportie kan je de schuine zijde berekenen en daarmee de hoogte. hoogte is het punt dat geplaatst moet worden met setpixel.
+//	float triangle_const_elipse = 2*(sqrtf((half_height*half_height)+(half_width*half_width)));
+//	int half_triangle_const_elipse = triangle_const_elipse*0.5;
+	float verhouding_xy=radius_x/radius_y;
+	float verhouding_yx=radius_y/radius_x;
+//	float diagonal;
+	int i; // y_teller
+	int j; // x_teller
 	int h;
-	float y;
-	float negy;
+//	float y;
+//	float negy;
+
+	UB_VGA_SetPixel(start_x_pos-radius_x,start_y_pos,color);
+	UB_VGA_SetPixel(start_x_pos+radius_x,start_y_pos,color);
+	UB_VGA_SetPixel(start_x_pos,start_y_pos-radius_y,color);
+	UB_VGA_SetPixel(start_x_pos,start_y_pos+radius_y,color);
+
+	for (i = 0; i < VGA_DISPLAY_Y; ++i)
+	{
+		for (j = 0; j < VGA_DISPLAY_X; ++j)
+		{
+			if (j> start_x_pos-radius_x && j< start_x_pos+radius_x && i> start_y_pos-radius_y && i< start_y_pos+radius_y)
+			{
+				if (j<start_x_pos && i<start_y_pos)
+				{
+					UB_VGA_SetPixel(j,j*verhouding_yx,color);
+				}
+				if (j>start_x_pos && i<start_y_pos)
+				{
+					UB_VGA_SetPixel(j,j*verhouding_yx,color);
+				}
+				if (j>start_x_pos && i>start_y_pos)
+				{
+					UB_VGA_SetPixel(j,j*verhouding_yx,color);
+				}
+				if (j<start_x_pos && i>start_y_pos)
+				{
+					UB_VGA_SetPixel(j,j*verhouding_yx,color);
+				}
+			}
+		}
+
+	}
+
 
 
 //	up_max_elipse= start_y_pos + half_height;
@@ -241,204 +224,60 @@ void elipse (uint16_t start_x_pos, uint16_t start_y_pos, uint16_t height, uint16
 //	right_max_elipse = start_x_pos + half_width;
 //	left_max_elipse = start_x_pos - half_width;
 
-	if (fill== Nofill)
-	{
-		for (j = 0; j < line_thickness; ++j)
-		{
-			half_width=half_width-j;
-			half_height=half_height-j;
-
-
-
-
-				for (i = 0; i < half_width; ++i)
-				{
-					degrees = 45*(i/half_width);
-
-					y = tanf(degrees)*i;
-					negy = start_y_pos - y;
-					//y = start_y_pos +(sqrt(((half_triangle_const_elipse*half_triangle_const_elipse)-(half_width*half_width))));
-					//negy = start_y_pos -(sqrt(((half_triangle_const_elipse*half_triangle_const_elipse)-(half_width*half_width))));
-
-					UB_VGA_SetPixel(start_x_pos+half_width-i,y,color); // rechtsboven t.o.v.  midden
-					UB_VGA_SetPixel(start_x_pos-half_width+i,y,color); // linksboven t.o.v. midden
-					UB_VGA_SetPixel(start_x_pos+half_width-i,negy,color); // rechtsonder t.o.v. midden
-					UB_VGA_SetPixel(start_x_pos-half_width+i,negy,color); // linksonder t.o.v. midden
-				}
-
-		}
-	}
-	if (fill== Fill)
-	{
-		for (j = 0; j < half_width; ++j)
-		{
-
-
-			for (i = 0; i < half_width; ++i)
-			{
-				half_width= half_width-i;
-				int y = start_y_pos +(sqrt(((half_triangle_const_elipse*half_triangle_const_elipse)-(half_width*half_width))));
-				int negy = start_y_pos -(sqrt(((half_triangle_const_elipse*half_triangle_const_elipse)-(half_width*half_width))));
-
-				UB_VGA_SetPixel(start_x_pos+half_width-i,y,color); // rechtsboven t.o.v.  midden
-				UB_VGA_SetPixel(start_x_pos-half_width+i,y,color); // linksboven t.o.v. midden
-				UB_VGA_SetPixel(start_x_pos+half_width-i,negy,color); // rechtsonder t.o.v. midden
-				UB_VGA_SetPixel(start_x_pos-half_width+i,negy,color); // linksonder t.o.v. midden
-		}
-	}
-	}
+//	if (fill== Nofill)
+//	{
+//		for (j = 0; j < line_thickness; ++j)
+//		{
+//			half_width=half_width-j;
+//			half_height=half_height-j;
+//
+//
+//
+//
+//				for (i = 0; i < half_width; ++i)
+//				{
+//					degrees = 45*(i/half_width);
+//
+//					y = tanf(degrees)*i;
+//					negy = start_y_pos - y;
+//					//y = start_y_pos +(sqrt(((half_triangle_const_elipse*half_triangle_const_elipse)-(half_width*half_width))));
+//					//negy = start_y_pos -(sqrt(((half_triangle_const_elipse*half_triangle_const_elipse)-(half_width*half_width))));
+//
+//					UB_VGA_SetPixel(start_x_pos+half_width-i,y,color); // rechtsboven t.o.v.  midden
+//					UB_VGA_SetPixel(start_x_pos-half_width+i,y,color); // linksboven t.o.v. midden
+//					UB_VGA_SetPixel(start_x_pos+half_width-i,negy,color); // rechtsonder t.o.v. midden
+//					UB_VGA_SetPixel(start_x_pos-half_width+i,negy,color); // linksonder t.o.v. midden
+//				}
+//
+//		}
+//	}
+//	if (fill== Fill)
+//	{
+//		for (j = 0; j < half_width; ++j)
+//		{
+//
+//
+//			for (i = 0; i < half_width; ++i)
+//			{
+//				half_width= half_width-i;
+//				int y = start_y_pos +(sqrt(((half_triangle_const_elipse*half_triangle_const_elipse)-(half_width*half_width))));
+//				int negy = start_y_pos -(sqrt(((half_triangle_const_elipse*half_triangle_const_elipse)-(half_width*half_width))));
+//
+//				UB_VGA_SetPixel(start_x_pos+half_width-i,y,color); // rechtsboven t.o.v.  midden
+//				UB_VGA_SetPixel(start_x_pos-half_width+i,y,color); // linksboven t.o.v. midden
+//				UB_VGA_SetPixel(start_x_pos+half_width-i,negy,color); // rechtsonder t.o.v. midden
+//				UB_VGA_SetPixel(start_x_pos-half_width+i,negy,color); // linksonder t.o.v. midden
+//		}
+//	}
+//	}
 }
 
 // werkt alleen met verhouding van 0.5
-void triangle(uint16_t start_x_pos, uint16_t start_y_pos, uint16_t height, uint16_t width, uint16_t color, uint16_t fill, uint16_t thickness_line, uint16_t direction, uint16_t position)
-{
-int i; // y_pos_counter
-int j; // x_pos_counter
-int k; // line thickness counter
-
-
-int proportion = abs(height)/abs(width);
-//int	  proportion = abs(proportion);
-
-if (fill ==  Fill)
+void triangle(int start_x_pos, int start_y_pos, int x_pos2, int y_pos2 , int end_x_pos, int end_y_pos,  int color,int line_thickness, int fill)
 {
 
-if (direction == Right && position == Up)
-{
-	for (i = 0; i < height; ++i)
-	{
-		for (j = 0; j < width; ++j)
-		{
-			if(j<i*proportion)
-			{
-			UB_VGA_SetPixel(j,i,color);
-			}
-		}
-	}
-}
-
-if (direction == Right && position == Down)
-{
-
-}
-
-if (direction == Left && position == Up)
-{
-	for (i = 0; i < height; ++i)
-	{
-		for (j = 0; j < width; ++j)
-		{
-			if(j<i*proportion)
-			{
-			UB_VGA_SetPixel(height-j,i,color);
-			}
-		}
-	}
-}
-
-if (direction == Left && position == Down)
-{
-	for (i = 0; i < height; ++i)
-	{
-		for (j = 0; j < width; ++j)
-		{
-			if(j<i*proportion)
-			{
-			UB_VGA_SetPixel(width-j,height-i,color);
-			}
-		}
-	}
-}
-}
-
-if ( fill == Nofill)
-{
-	if (direction == Right && position == Up)
-	{
-		for (i = 0; i < height; ++i)
-		{
-			for (j = 0; j < width; ++j)
-			{
-				if(j+1< thickness_line||i<thickness_line)
-				UB_VGA_SetPixel(j,i,color);
-
-				for (k = 0; k < thickness_line; ++k)
-				{
-				if(j == i*proportion+2-k)// de 2 pixel shift zorgt voor een mooiere aansluiting op de hoeken
-				UB_VGA_SetPixel(j,height-i,color);
-				}
-
-			}
-		}
-	}
-
-	if (direction == Right && position == Down)
-	{
-		for (i = 0; i < height; ++i)
-		{
-			for (j = 0; j < width; ++j)
-			{
-				if(j+1< thickness_line||i>height-thickness_line)
-				UB_VGA_SetPixel(j,i,color);
-
-				for (k = 0; k < thickness_line; ++k)
-				{
-					if(j == i*proportion+2-k)// de 2 pixel shift zorgt voor een mooiere aansluiting op de hoeken
-					{
-					UB_VGA_SetPixel(j,i,color);
-					}
-				}
-			}
-		}
-
-	}
-
-
-	if (direction == Left && position == Up)
-	{
-		for (i = 0; i < height; ++i)
-		{
-			for (j = 0; j < width; ++j)
-			{
-				if(j>width-thickness_line||i+1<thickness_line)
-				{
-					UB_VGA_SetPixel(j,i,color);
-				}
-				for (k = 0; k < thickness_line; ++k)
-				{
-					if(j == i*proportion-k)
-					{
-					UB_VGA_SetPixel(j,i,color);
-					}
-				}
-
-
-			}
-		}
-	}
-
-	if (direction == Left && position == Down)
-	{
-		for (i = 0; i < height; ++i)
-		{
-			for (j = 0; j < width; ++j)
-			{
-				for (j = 0; j < width; ++j)
-				{
-					if(j+1> width-thickness_line||i>height-thickness_line)
-					UB_VGA_SetPixel(j,i,color);
-
-					for (k = 0; k < thickness_line; ++k)
-					{
-					if(j == i*proportion-k)// de 2 pixel shift zorgt voor een mooiere aansluiting op de hoeken
-					UB_VGA_SetPixel(j,height-i,color);
-					}
-
-				}
-			}
-		 }
-	 }
-}
-
+	line(start_x_pos,start_y_pos,x_pos2,y_pos2,color);
+	line(x_pos2,y_pos2,end_x_pos,end_y_pos,color);
+	line(start_x_pos,start_y_pos,end_x_pos,end_y_pos,color);
 
 }
