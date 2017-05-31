@@ -7,7 +7,7 @@
 #include "stdio.h"
 #include "stdarg.h"
 
-typedef enum font_setting{GEORGIA_NORMAL,GEORGIA_ITALIC,GEORGIA_BOLD};
+typedef enum font_setting{GEORGIA_NORMAL,GEORGIA_ITALIC,GEORGIA_BOLD,GEORGIA_ART};
 int Descriptor[];
 int Bitmap[];
 
@@ -39,6 +39,9 @@ int calc_writing_space(int letter,int font)
 		break;
 	case GEORGIA_BOLD:
 		val = georgia_16pt_bold_Descriptors[letter*2];
+		break;
+	case GEORGIA_ART:
+		val = georgia_16pt_normal_Descriptors[letter*2];
 		break;
 	default:
 		break;
@@ -72,6 +75,9 @@ int calc_char_space(int letter, int font)
 	case GEORGIA_BOLD:
 		val = georgia_16pt_bold_Descriptors[letter*2];
 		break;
+	case GEORGIA_ART:
+		val = georgia_16pt_normal_Descriptors[letter*2];
+		break;
 	default:
 		break;
 	}
@@ -90,6 +96,9 @@ int determine_offset(int letter,int font)
 		break;
 	case GEORGIA_BOLD:
 		val = georgia_16pt_bold_Descriptors[letter*2+1];
+		break;
+	case GEORGIA_ART:
+		val = georgia_16pt_normal_Descriptors[letter*2+1];
 		break;
 	default:
 		break;
@@ -126,6 +135,9 @@ void write_char_VGA(int x_pos, int y_pos, int col, int write_space, int font, in
 			case GEORGIA_BOLD:
 				val_old = georgia_16pt_bold_Bitmaps[i+start_offset];
 				break;
+			case GEORGIA_ART:
+				val_old = georgia_16pt_normal_Bitmaps[i+start_offset];
+				break;
 			default:
 				break;
 			}
@@ -138,7 +150,11 @@ void write_char_VGA(int x_pos, int y_pos, int col, int write_space, int font, in
 
 				if((val_new)>=0)
 				{
-					UB_VGA_SetPixel((xt*8)+bt+x_pos, yt+y_pos, col+bt+xt+yt);
+					if(font == GEORGIA_ART)
+						UB_VGA_SetPixel((xt*8)+bt+x_pos, yt+y_pos, col+bt+yt);
+					else
+						UB_VGA_SetPixel((xt*8)+bt+x_pos, yt+y_pos, col);
+
 					val_old = val_new;		// alleen nieuwe als bit er in zat
 				}
 				macht = macht * 2; // 00 - 80
